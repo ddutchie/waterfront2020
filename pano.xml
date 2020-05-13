@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="17841" appversion="6.1.0" id="node1" hideabout="1">
+  <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" height="1024" leveltilesize="510" levelingroll="0" width="1024" levelbias="0.400">
+    <level height="1024" preload="0" predecode="0" width="1024"/>
+    <level height="512" preload="0" predecode="0" width="512"/>
+    <level height="256" preload="1" predecode="1" width="256"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="215">
+    <start tilt="0" pan="180" projection="4" fov="70"/>
+    <flyin tilt="-90" pan="0" projection="4" fov="170"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360"/>
+  </view>
+  <userdata datetime="13/05/2020" latitude="" description="Flagpole Scene" source="http:\\waterfront.co.za" info="" customnodeid="street_scene" longitude="" nodeid="node1" tags="Assets" author="Tenebris Lab" title="Flagpole" comment="" copyright="V&amp;A Waterfront">
+    <mapcoords y_floorplan_percent="31.3025" mapid="FloorPlan01" x="1.33209" y="-0.818481" x_floorplan_percent="48.5"/>
+  </userdata>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" border="1" wordwrap="1" borderalpha="1" textalpha="1" width="180" enabled="1" background="1" backgroundalpha="1" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundalpha="0.25098"/>
+  </hotspots>
+  <media/>
+  <transition softedge="0" zoomout="0" blendcolor="0x000000" zoomin="0" blendtime="1" zoomspeed="2" zoomfov="20" zoomoutpause="1" enabled="1" type="crossdissolve"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control lockedkeyboard="0" contextfullscreen="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="5" rubberband="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1">
+    <menulink url="https://tenebrislab.com" text="Created by Tenebrislab"/>
+  </control>
+  <map bgcolor="rgba(255, 255, 255, 1)" height="952" tileformat="jpg" floorplannorth="0" zoomlevels="1" width="1000" transparent="0" title="" id="FloorPlan01" type="file"/>
+</panorama>
