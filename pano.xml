@@ -869,7 +869,9 @@
       <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
       <hotspot distance="44.7734" url="{node29}" id="Point01" title="" description="" skinid="ht_node" pan="-13.0999" target="$fwd" tilt="0"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="5" color="0xffffff" blinding="50.000" alpha="80.000" pan="-104.210" tilt="25.260"/>
+    </media>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
