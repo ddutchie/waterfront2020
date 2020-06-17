@@ -1,29 +1,883 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama apprev="17841" appversion="6.1.0" id="node1" hideabout="1">
-  <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" height="1024" leveltilesize="510" levelingroll="0" width="1024" levelbias="0.400">
-    <level height="1024" preload="0" predecode="0" width="1024"/>
-    <level height="512" preload="0" predecode="0" width="512"/>
-    <level height="256" preload="1" predecode="1" width="256"/>
-    <preview strip="1" color="0x808080"/>
-  </input>
-  <view fovmode="0" pannorth="215">
-    <start tilt="0" pan="180" projection="4" fov="70"/>
-    <flyin tilt="-90" pan="0" projection="4" fov="170"/>
-    <min tilt="-90" pan="0" fovpixel="2"/>
-    <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360"/>
-  </view>
-  <userdata datetime="13/05/2020" latitude="" description="Flagpole Scene" source="http:\\waterfront.co.za" info="" customnodeid="street_scene" longitude="" nodeid="node1" tags="Assets" author="Tenebris Lab" title="Flagpole" comment="" copyright="V&amp;A Waterfront">
-    <mapcoords y_floorplan_percent="31.3025" mapid="FloorPlan01" x="1.33209" y="-0.818481" x_floorplan_percent="48.5"/>
-  </userdata>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" border="1" wordwrap="1" borderalpha="1" textalpha="1" width="180" enabled="1" background="1" backgroundalpha="1" borderradius="1"/>
-    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundalpha="0.25098"/>
-  </hotspots>
-  <media/>
-  <transition softedge="0" zoomout="0" blendcolor="0x000000" zoomin="0" blendtime="1" zoomspeed="2" zoomfov="20" zoomoutpause="1" enabled="1" type="crossdissolve"/>
-  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-  <control lockedkeyboard="0" contextfullscreen="0" lockedkeyboardzoom="0" contextprojections="0" sensitivity="5" rubberband="0" lockedwheel="0" speedwheel="1" dblclickfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1">
-    <menulink url="https://tenebrislab.com" text="Created by Tenebrislab"/>
-  </control>
-  <map bgcolor="rgba(255, 255, 255, 1)" height="952" tileformat="jpg" floorplannorth="0" zoomlevels="1" width="1000" transparent="0" title="" id="FloorPlan01" type="file"/>
-</panorama>
+<tour apprev="17841" start="node11" appversion="6.1.0">
+  <panorama id="node1" hideabout="1">
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="6">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42118655" tags="" copyright="" customnodeid="" author="" nodeid="node1" latitude="-33.90403000">
+      <mapcoords x_floorplan_percent="51.36" x="0.881653" y_floorplan_percent="29.1176" y="-0.475845" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="16.3313" url="{node2}" id="Point02" title="" description="" skinid="ht_node" pan="181.295" target="$fwd" tilt="-6.61"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="41">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42111408" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node2" latitude="-33.90416399">
+      <mapcoords x_floorplan_percent="50.72" x="0.870667" y_floorplan_percent="30.1261" y="-0.492325" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="16.3313" url="{node1}" id="Point01" title="" description="" skinid="ht_node" pan="-326.086" target="$fwd" tilt="3.3"/>
+      <hotspot distance="39.7809" url="{node3}" id="Point02" title="" description="" skinid="ht_node" pan="177.351" target="$fwd" tilt="-2.11"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-317.06">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42082471" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node3" latitude="-33.90442915">
+      <mapcoords x_floorplan_percent="50.16" x="0.861053" y_floorplan_percent="30.9244" y="-0.505371" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="39.7809" url="{node2}" id="Point01" title="" description="" skinid="ht_node" pan="-359.229" target="$fwd" tilt="0"/>
+      <hotspot distance="40.2453" url="{node4}" id="Point02" title="" description="" skinid="ht_node" pan="-175.819" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="44">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42055170" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node4" latitude="-33.90471138">
+      <mapcoords x_floorplan_percent="48.92" x="0.839767" y_floorplan_percent="32.6471" y="-0.533524" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="40.2453" url="{node3}" id="Point01" title="" description="" skinid="ht_node" pan="5.24054" target="$fwd" tilt="0"/>
+      <hotspot distance="43.6506" url="{node5}" id="Point02" title="" description="" skinid="ht_node" pan="181.841" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="49">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42023424" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node5" latitude="-33.90500238">
+      <mapcoords x_floorplan_percent="47.8" x="0.820541" y_floorplan_percent="33.6975" y="-0.55069" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="18.1677" url="{node6}" id="Point01" title="" description="" skinid="ht_node" pan="175.45" target="$fwd" tilt="0"/>
+      <hotspot distance="24.3453" url="{node12}" id="Point02" title="" description="" skinid="ht_node" pan="41.7458" target="$fwd" tilt="0"/>
+      <hotspot distance="43.6506" url="{node4}" id="Point03" title="" description="" skinid="ht_node" pan="6.84121" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="31">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42007589" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node6" latitude="-33.90509945">
+      <mapcoords x_floorplan_percent="46.24" x="0.793762" y_floorplan_percent="34.8319" y="-0.569229" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="18.1677" url="{node5}" id="Point01" title="" description="" skinid="ht_node" pan="-22.5505" target="$fwd" tilt="0"/>
+      <hotspot distance="14.5982" url="{node7}" id="Point02" title="" description="" skinid="ht_node" pan="85.8837" target="$fwd" tilt="0"/>
+      <hotspot distance="13.6864" url="{node18}" id="Point03" title="" description="" skinid="ht_node" pan="-123.323" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-196">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41994650" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node7" latitude="-33.90502393">
+      <mapcoords x_floorplan_percent="44.92" x="0.771103" y_floorplan_percent="34.6218" y="-0.565796" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="14.5982" url="{node6}" id="Point01" title="" description="" skinid="ht_node" pan="-321.116" target="$fwd" tilt="0"/>
+      <hotspot distance="16.392" url="{node8}" id="Point02" title="" description="" skinid="ht_node" pan="-174.703" target="$fwd" tilt="0"/>
+      <hotspot distance="21.5173" url="{node9}" id="Point03" title="" description="" skinid="ht_node" pan="-245.929" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="157">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41988199" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node8" latitude="-33.90488658">
+      <mapcoords x_floorplan_percent="44.76" x="0.768356" y_floorplan_percent="33.3193" y="-0.54451" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="16.392" url="{node7}" id="Point01" title="" description="" skinid="ht_node" pan="-1.70348" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-126">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42012492" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node9" latitude="-33.90489936">
+      <mapcoords x_floorplan_percent="46.44" x="0.797195" y_floorplan_percent="33.7395" y="-0.551376" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="21.5173" url="{node7}" id="Point01" title="" description="" skinid="ht_node" pan="4.07134" target="$fwd" tilt="0"/>
+      <hotspot distance="18.2875" url="{node12}" id="Point02" title="" description="" skinid="ht_node" pan="-172.037" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="15">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42031989" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node10" latitude="-33.90467917">
+      <mapcoords x_floorplan_percent="48.16" x="0.826721" y_floorplan_percent="31.3025" y="-0.511551" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="22.8804" url="{node11}" id="Point01" title="" description="" skinid="ht_node" pan="6.29792" target="$fwd" tilt="0"/>
+      <hotspot distance="12.7401" url="{node12}" id="Point03" title="" description="" skinid="ht_node" pan="172.719" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="64">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42035740" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node11" latitude="-33.90447577">
+      <mapcoords x_floorplan_percent="48.36" x="0.830154" y_floorplan_percent="30.5882" y="-0.499878" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="22.8804" url="{node10}" id="Point01" title="" description="" skinid="ht_node" pan="235.298" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="35">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42026755" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node12" latitude="-33.90478519">
+      <mapcoords x_floorplan_percent="48.04" x="0.824661" y_floorplan_percent="32.3109" y="-0.52803" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="18.2875" url="{node9}" id="Point01" title="" description="" skinid="ht_node" pan="168.963" target="$fwd" tilt="0"/>
+      <hotspot distance="12.7401" url="{node10}" id="Point02" title="" description="" skinid="ht_node" pan="12.7192" target="$fwd" tilt="0"/>
+      <hotspot distance="24.3453" url="{node5}" id="Point03" title="" description="" skinid="ht_node" pan="207.746" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-27">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42014015" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node18" latitude="-33.90521038">
+      <mapcoords x_floorplan_percent="47.44" x="0.814362" y_floorplan_percent="36.8067" y="-0.601501" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="18.6033" url="{node13}" id="Point01" title="" description="" skinid="ht_node" pan="-181.8" target="$fwd" tilt="0"/>
+      <hotspot distance="13.6864" url="{node6}" id="Point02" title="" description="" skinid="ht_node" pan="-1.32248" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-29">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42022598" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node13" latitude="-33.90536176">
+      <mapcoords x_floorplan_percent="47.88" x="0.821915" y_floorplan_percent="37.6891" y="-0.615921" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="16.5132" url="{node14}" id="Point01" title="" description="" skinid="ht_node" pan="-185.126" target="$fwd" tilt="0"/>
+      <hotspot distance="18.6033" url="{node18}" id="Point02" title="" description="" skinid="ht_node" pan="-3.79951" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-18">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42029840" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node14" latitude="-33.90549756">
+      <mapcoords x_floorplan_percent="48.2" x="0.827408" y_floorplan_percent="38.5714" y="-0.630341" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="27.0899" url="{node15}" id="Point01" title="" description="" skinid="ht_node" pan="-178.24" target="$fwd" tilt="0"/>
+      <hotspot distance="16.5132" url="{node13}" id="Point02" title="" description="" skinid="ht_node" pan="5.87441" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-15">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42039764" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node15" latitude="-33.90572684">
+      <mapcoords x_floorplan_percent="48.64" x="0.834961" y_floorplan_percent="39.2857" y="-0.642014" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="15.5071" url="{node17}" id="Point01" title="" description="" skinid="ht_node" pan="-166.398" target="$fwd" tilt="0"/>
+      <hotspot distance="42.3605" url="{node16}" id="Point02" title="" description="" skinid="ht_node" pan="94.8122" target="$fwd" tilt="0"/>
+      <hotspot distance="27.0899" url="{node14}" id="Point03" title="" description="" skinid="ht_node" pan="4.76" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="147">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41996580" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node16" latitude="-33.90585596">
+      <mapcoords x_floorplan_percent="46.4" x="0.796509" y_floorplan_percent="40.1261" y="-0.655746" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="69.0771" url="{node27}" id="Point01" title="" description="" skinid="ht_node" pan="300.619" target="$fwd" tilt="0"/>
+      <hotspot distance="67.4606" url="{node24}" id="Point02" title="" description="" skinid="ht_node" pan="-8.50413" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-30">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42047808" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node17" latitude="-33.90584928">
+      <mapcoords x_floorplan_percent="49.12" x="0.843201" y_floorplan_percent="39.916" y="-0.652313" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="20.2994" url="{node19}" id="Point01" title="" description="" skinid="ht_node" pan="-120" target="$fwd" tilt="0"/>
+      <hotspot distance="45.4668" url="{node23}" id="Point02" title="" description="" skinid="ht_node" pan="-174.75" target="$fwd" tilt="0"/>
+      <hotspot distance="15.5071" url="{node15}" id="Point03" title="" description="" skinid="ht_node" pan="-1.3981" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-114">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42069804" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node19" latitude="-33.90584928">
+      <mapcoords x_floorplan_percent="50.16" x="0.861053" y_floorplan_percent="39.8319" y="-0.65094" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="16.4887" url="{node20}" id="Point01" title="" description="" skinid="ht_node" pan="-196.237" target="$fwd" tilt="0"/>
+      <hotspot distance="30.8857" url="{node15}" id="Point02" title="" description="" skinid="ht_node" pan="-50.1555" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-80">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42087507" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node20" latitude="-33.90582925">
+      <mapcoords x_floorplan_percent="51.28" x="0.88028" y_floorplan_percent="39.8319" y="-0.65094" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="23.7181" url="{node21}" id="Point01" title="" description="" skinid="ht_node" pan="-221.994" target="$fwd" tilt="0"/>
+      <hotspot distance="16.4887" url="{node19}" id="Point02" title="" description="" skinid="ht_node" pan="17.7631" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <input leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-47">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42103332" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node21" latitude="-33.90599732">
+      <mapcoords x_floorplan_percent="51.72" x="0.887833" y_floorplan_percent="40.5882" y="-0.6633" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="8.68952" url="{node22}" id="Point01" title="" description="" skinid="ht_node" pan="115.598" target="$fwd" tilt="0"/>
+      <hotspot distance="44.7349" url="{node29}" id="Point02" title="" description="" skinid="ht_node" pan="-125.349" target="$fwd" tilt="0"/>
+      <hotspot distance="23.7181" url="{node20}" id="Point03" title="" description="" skinid="ht_node" pan="-8.99368" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node22" hideabout="1">
+    <input leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="11">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42100516" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node22" latitude="-33.90607189">
+      <mapcoords x_floorplan_percent="51.52" x="0.884399" y_floorplan_percent="41.0084" y="-0.670166" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="25.5935" url="{node23}" id="Point01" title="" description="" skinid="ht_node" pan="129.921" target="$fwd" tilt="0"/>
+      <hotspot distance="8.68952" url="{node21}" id="Point02" title="" description="" skinid="ht_node" pan="-6.40188" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node23" hideabout="1">
+    <input leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="59">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42076242" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node23" latitude="-33.90618320">
+      <mapcoords x_floorplan_percent="49.52" x="0.850067" y_floorplan_percent="42.1849" y="-0.689392" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="25.5935" url="{node22}" id="Point01" title="" description="" skinid="ht_node" pan="-2.07901" target="$fwd" tilt="0"/>
+      <hotspot distance="51.9567" url="{node24}" id="Point02" title="" description="" skinid="ht_node" pan="177.763" target="$fwd" tilt="0"/>
+      <hotspot distance="45.4668" url="{node17}" id="Point03" title="" description="" skinid="ht_node" pan="94.2498" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node24" hideabout="1">
+    <input leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="62">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42026889" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node24" latitude="-33.90640804">
+      <mapcoords x_floorplan_percent="48.6" x="0.834274" y_floorplan_percent="42.521" y="-0.694885" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="51.9567" url="{node23}" id="Point01" title="" description="" skinid="ht_node" pan="0.763044" target="$fwd" tilt="0"/>
+      <hotspot distance="37.9697" url="{node25}" id="Point02" title="" description="" skinid="ht_node" pan="178.732" target="$fwd" tilt="0"/>
+      <hotspot distance="67.4606" url="{node16}" id="Point03" title="" description="" skinid="ht_node" pan="86.496" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node25" hideabout="1">
+    <input leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="56">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41990143" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node25" latitude="-33.90656164">
+      <mapcoords x_floorplan_percent="46.48" x="0.797882" y_floorplan_percent="43.5714" y="-0.712051" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="37.9697" url="{node24}" id="Point01" title="" description="" skinid="ht_node" pan="-7.26795" target="$fwd" tilt="0"/>
+      <hotspot distance="19.0009" url="{node26}" id="Point02" title="" description="" skinid="ht_node" pan="132.052" target="$fwd" tilt="0"/>
+      <hotspot distance="32.1417" url="{node28}" id="Point03" title="" description="" skinid="ht_node" pan="178.097" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node26" hideabout="1">
+    <input leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-28">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41970161" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node26" latitude="-33.90652045">
+      <mapcoords x_floorplan_percent="44.76" x="0.768356" y_floorplan_percent="43.4874" y="-0.710678" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="19.0009" url="{node25}" id="Point01" title="" description="" skinid="ht_node" pan="-131.948" target="$fwd" tilt="0"/>
+      <hotspot distance="13.5631" url="{node27}" id="Point02" title="" description="" skinid="ht_node" pan="-0.263271" target="$fwd" tilt="0"/>
+      <hotspot distance="23.3737" url="{node28}" id="Point03" title="" description="" skinid="ht_node" pan="129.914" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node27" hideabout="1">
+    <input leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-19">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41963321" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node27" latitude="-33.90641249">
+      <mapcoords x_floorplan_percent="44.32" x="0.760803" y_floorplan_percent="42.2689" y="-0.690765" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="13.5631" url="{node26}" id="Point01" title="" description="" skinid="ht_node" pan="-171.263" target="$fwd" tilt="0"/>
+      <hotspot distance="69.0771" url="{node16}" id="Point02" title="" description="" skinid="ht_node" pan="-45.3811" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node28" hideabout="1">
+    <input leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="72">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.41960638" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node28" latitude="-33.90671523">
+      <mapcoords x_floorplan_percent="44.2" x="0.758743" y_floorplan_percent="45.042" y="-0.736084" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="32.1417" url="{node25}" id="Point01" title="" description="" skinid="ht_node" pan="14.0965" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node29" hideabout="1">
+    <input leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-61">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42150807" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node29" latitude="-33.90591607">
+      <mapcoords x_floorplan_percent="54.92" x="0.942764" y_floorplan_percent="40.4622" y="-0.66124" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="44.7349" url="{node21}" id="Point01" title="" description="" skinid="ht_node" pan="40.6516" target="$fwd" tilt="0"/>
+      <hotspot distance="44.7734" url="{node30}" id="Point02" title="" description="" skinid="ht_node" pan="-186.1" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <panorama id="node30" hideabout="1">
+    <input leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="1920" levelingroll="0" levelingpitch="0" overlap="1" height="1920" leveltilesize="510" levelbias="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-68">
+      <start projection="4" pan="0" fov="70" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max scaletofit="1" fovfisheye="360" pan="360" fovstereographic="270" fov="120" tilt="90"/>
+    </view>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="18.42190500" tags="KDOutput" copyright="" customnodeid="" author="" nodeid="node30" latitude="-33.90614760">
+      <mapcoords x_floorplan_percent="55.72" x="0.956497" y_floorplan_percent="40.5882" y="-0.6633" mapid="Plan"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot distance="44.7734" url="{node29}" id="Point01" title="" description="" skinid="ht_node" pan="-13.0999" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
+      <menulink url="" text="Created by Gerard Slee"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata datetime="" source="" title="" comment="" description="" info="" longitude="" tags="" copyright="" customnodeid="" author="" nodeid="master" latitude=""/>
+  </masternode>
+  <map id="Plan" type="file" title="" transparent="0" floorplannorth="0" width="2500" zoomlevels="5" bgcolor="rgba(255, 255, 255, 1)" tileformat="jpg" height="2380"/>
+</tour>
