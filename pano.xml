@@ -167,6 +167,7 @@
       <hotspot distance="18.1677" url="{node5}" id="Point01" title="" description="" skinid="ht_node" pan="-22.5505" target="$fwd" tilt="0"/>
       <hotspot distance="14.5982" url="{node7}" id="Point02" title="" description="" skinid="ht_node" pan="85.8837" target="$fwd" tilt="0"/>
       <hotspot distance="13.6864" url="{node18}" id="Point03" title="" description="" skinid="ht_node" pan="-123.323" target="$fwd" tilt="0"/>
+      <hotspot url="4eZ-j-pwArY" id="Point04" title="Cape Town Buskers!" description="" skinid="ht_video_youtube" pan="-301.07" target="" tilt="-3.81"/>
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
@@ -197,6 +198,7 @@
       <hotspot distance="14.5982" url="{node6}" id="Point01" title="" description="" skinid="ht_node" pan="-321.116" target="$fwd" tilt="0"/>
       <hotspot distance="16.392" url="{node8}" id="Point02" title="" description="" skinid="ht_node" pan="-174.703" target="$fwd" tilt="0"/>
       <hotspot distance="21.5173" url="{node9}" id="Point03" title="" description="" skinid="ht_node" pan="-245.929" target="$fwd" tilt="0"/>
+      <hotspot url="INELMaYfGL4" id="Point04" title="Dancing street performers" description="" skinid="ht_video_youtube" pan="-273.85" target="" tilt="-9.8"/>
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
@@ -283,6 +285,7 @@
       <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
       <hotspot distance="22.8804" url="{node11}" id="Point01" title="" description="" skinid="ht_node" pan="6.29792" target="$fwd" tilt="0"/>
       <hotspot distance="12.7401" url="{node12}" id="Point03" title="" description="" skinid="ht_node" pan="172.719" target="$fwd" tilt="0"/>
+      <hotspot url="WcV68RJ1NkI" id="Point02" title="Al Petersen Busking" description="" skinid="ht_video_youtube" pan="-87.6" target="" tilt="-9.65"/>
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
@@ -399,6 +402,7 @@
       <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
       <hotspot distance="16.5132" url="{node14}" id="Point01" title="" description="" skinid="ht_node" pan="-185.126" target="$fwd" tilt="0"/>
       <hotspot distance="18.6033" url="{node18}" id="Point02" title="" description="" skinid="ht_node" pan="-3.79951" target="$fwd" tilt="0"/>
+      <hotspot url="ZFRG_aofWfQ" id="Point03" title="Zakhele Popo - Buskers at the V&amp;A Waterfront" description="" skinid="ht_video_youtube" pan="-329.64" target="" tilt="-12.84"/>
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
@@ -517,6 +521,7 @@
       <hotspot distance="20.2994" url="{node19}" id="Point01" title="" description="" skinid="ht_node" pan="-120" target="$fwd" tilt="0"/>
       <hotspot distance="45.4668" url="{node23}" id="Point02" title="" description="" skinid="ht_node" pan="-174.75" target="$fwd" tilt="0"/>
       <hotspot distance="15.5071" url="{node15}" id="Point03" title="" description="" skinid="ht_node" pan="-1.3981" target="$fwd" tilt="0"/>
+      <hotspot url="EnOR_P4dyzg" id="Point04" title="Mohau’s Busking Story" description="" skinid="ht_video_youtube" pan="-17.63" target="" tilt="-3.06"/>
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
@@ -754,6 +759,8 @@
       <hotspot distance="19.0009" url="{node25}" id="Point01" title="" description="" skinid="ht_node" pan="-131.948" target="$fwd" tilt="0"/>
       <hotspot distance="13.5631" url="{node27}" id="Point02" title="" description="" skinid="ht_node" pan="-0.263271" target="$fwd" tilt="0"/>
       <hotspot distance="23.3737" url="{node28}" id="Point03" title="" description="" skinid="ht_node" pan="129.914" target="$fwd" tilt="0"/>
+      <hotspot url="uB6pYdO7Dr8" id="Point04" title="Reinhardt Buhr Looping &amp; Multi Instrumentalist" description="" skinid="ht_video_youtube" pan="-296.98" target="" tilt="-7.17"/>
+      <hotspot url="vXfcpg2RoTQ" id="Point05" title="Performers at V &amp; A Waterfront, Cape Town, South Africa" description="" skinid="ht_video_youtube" pan="-184.99" target="" tilt="-25.01"/>
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
@@ -868,6 +875,7 @@
       <label enabled="1" textalpha="1" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" bordercolor="0x000000" border="1" textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" background="1"/>
       <polystyle handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
       <hotspot distance="44.7734" url="{node29}" id="Point01" title="" description="" skinid="ht_node" pan="-13.0999" target="$fwd" tilt="0"/>
+      <hotspot url="2S4B_E-ZpO8" id="Point02" title="Micaela's Busking Story" description="" skinid="ht_video_youtube" pan="-106.23" target="" tilt="-7.37"/>
     </hotspots>
     <media>
       <lensflare id="Lensflare01" type="5" color="0xffffff" blinding="50.000" alpha="80.000" pan="-104.210" tilt="25.260"/>
