@@ -23,6 +23,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -52,6 +53,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -81,6 +83,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -110,6 +113,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -140,6 +144,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -171,6 +176,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -202,6 +208,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -230,6 +237,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -259,6 +267,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -289,6 +298,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -317,6 +327,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -347,6 +358,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -376,6 +388,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -406,6 +419,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -435,6 +449,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -465,6 +480,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -494,6 +510,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -525,6 +542,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -554,6 +572,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -583,6 +602,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -613,6 +633,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -642,6 +663,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -672,6 +694,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -702,6 +725,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -732,6 +756,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -764,6 +789,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -793,6 +819,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -821,6 +848,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -850,6 +878,7 @@
     </hotspots>
     <media/>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
@@ -881,6 +910,7 @@
       <lensflare id="Lensflare01" type="5" color="0xffffff" blinding="50.000" alpha="80.000" pan="-104.210" tilt="25.260"/>
     </media>
     <transition enabled="1" blendcolor="0x000000" type="crossdissolve" softedge="0" blendtime="1" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomout="0" zoomfov="20"/>
+    <autorotate enabled="1" noderandom="1" returntohorizon="0.000" delay="5.00" nodedelay="0.00" speed="0.100" nodefilter="" useanimation="0" startloaded="0"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control lockedwheel="0" contextfullscreen="0" hideabout="1" simulatemass="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboard="0">
       <menulink url="" text="Created by Gerard Slee"/>
