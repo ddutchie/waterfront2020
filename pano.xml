@@ -986,9 +986,7 @@
       <hotspot description="" id="Point02" url="2S4B_E-ZpO8" target="" pan="-106.23" skinid="ht_video_youtube" tilt="-7.37" title="Micaela's Busking Story"/>
       <hotspot description="The African Trading Port offers a wide variety of some of the finest examples of African art around. Works of art from many different African countries and cultures are on display here. ATP has been housed in their current location in the Old Port Captain’s Building at Cape Town’s Waterfront since 2001. Over the last few decades, much time has been devoted to sourcing art from successive generations of African artists. There is a wide array of objects d’art including sculpture, artefacts, ceramics, pottery, bronze-ware and glassware. Although the collection focuses on the work of recognised artists, display space is also devoted to some of the younger, emerging artists from the African continent. &#xa;&#xa;&lt;a href=&quot;http://www.africantradingport.co.za  &quot; target=&quot;_blank&quot;>http://www.africantradingport.co.za&lt;/a>" id="Point03" url="" target="" pan="-313.95" skinid="ht_info" tilt="4.67" title="The African Trading Port"/>
     </hotspots>
-    <media>
-      <lensflare color="0xffffff" blinding="50.000" id="Lensflare01" type="5" alpha="80.000" pan="-104.210" tilt="25.260"/>
-    </media>
+    <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" nodefilter="" enabled="1" noderandom="1" useanimation="0" speed="0.100"/>
     <flyintransition enabled="1" speed="1.00"/>
