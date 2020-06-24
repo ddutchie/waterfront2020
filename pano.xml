@@ -1021,11 +1021,15 @@
       <hotspot description="" id="Point03" url="{node22}" target="-49.2/-2.9/70.0" pan="-293.04" skinid="ht_node" tilt="-33.14" title=""/>
       <hotspot description="" id="Point04" url="{node1}" target="-177.7/-1.8/70.0" pan="-288.06" skinid="ht_node" tilt="-27.88" title=""/>
       <hotspot description="" id="Point05" url="{node9}" target="" pan="-285.38" skinid="ht_node" tilt="-30.84" title=""/>
-      <hotspot description="Could be useful to add some info points on this map also?" id="Point06" url="" target="_blank" pan="-305.67" skinid="ht_info" tilt="-25.84" title="Waterfront"/>
+      <hotspot description="Could be useful to add some info points on this map also?" id="Point06" url="" target="_blank" pan="-305.47" skinid="ht_info" tilt="-24.64" title="Waterfront"/>
       <hotspot description="" id="Point07" url="{node13}" target="" pan="-286.88" skinid="ht_node" tilt="-31.85" title=""/>
       <hotspot description="" id="Point08" url="{node15}" target="" pan="-288.82" skinid="ht_node" tilt="-32.81" title=""/>
       <hotspot description="" id="Point09" url="{node26}" target="" pan="-286.97" skinid="ht_node" tilt="-35.9" title=""/>
       <hotspot description="" id="Point10" url="{node24}" target="" pan="-289.78" skinid="ht_node" tilt="-34.91" title=""/>
+      <hotspot description="Info about the Cape Town Stadium..." id="Point06" url="" target="_blank" pan="-243" skinid="ht_info" tilt="-25.74" title="Cape Town Stadium"/>
+      <hotspot description="Info about the Signal Hill&#xa;" id="Point06" url="" target="_blank" pan="-157.11" skinid="ht_info" tilt="-13.65" title="Signal Hill"/>
+      <hotspot description="Info about the Lion's Head&#xa;" id="Point06" url="" target="_blank" pan="-130.98" skinid="ht_info" tilt="0.21" title="Lion's Head"/>
+      <hotspot description="Table Mountain Info&#xa;" id="Point06" url="" target="_blank" pan="-85.28" skinid="ht_info" tilt="4.49" title="Table Mountain"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>

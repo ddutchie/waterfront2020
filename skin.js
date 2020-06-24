@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: simplex_mod.ggsk
-// Generated 2020-06-24T21:57:04
+// Generated 2020-06-24T22:07:18
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
