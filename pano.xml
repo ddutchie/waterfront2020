@@ -53,6 +53,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node1}" target="$fwd" pan="-326.086" skinid="ht_node" tilt="3.3" title="" distance="16.3313"/>
       <hotspot description="" id="Point02" url="{node3}" target="$fwd" pan="177.351" skinid="ht_node" tilt="-2.11" title="" distance="39.7809"/>
+      <hotspot description="Jetty 1 Museum is just another nondescript building on the V&amp;A Waterfront. Look more closely and you’ll see a small board next to the entrance, explaining that the building served as a passageway for everyone traveling to and from Robben Island during apartheid. For the prisoners, staff, and wardens, this was the last place they could see Cape Town before their ferry pulled away from the mainland and the city disappeared into the dark silhouette of Table Mountain. &#xa;&#xa;Now a small museum, Jetty 1 houses information about the history of Robben Island, both before and after apartheid.This is a must-see if you don’t have time to do the full Robben Island tour but are still curious about this time in Cape Town’s history.&#xa;" id="Point03" url="" target="" pan="-106.09" skinid="ht_info" tilt="-1.43" title="Jetty 1 Museum"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -71,7 +72,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-317.06" fovmode="0">
-      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <start projection="4" fov="46.6752" pan="113.819" tilt="-2.3199"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
@@ -85,6 +86,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node2}" target="$fwd" pan="-359.229" skinid="ht_node" tilt="0" title="" distance="39.7809"/>
       <hotspot description="" id="Point02" url="{node4}" target="$fwd" pan="-175.819" skinid="ht_node" tilt="0" title="" distance="40.2453"/>
+      <hotspot description="There are a wide variety of attractions and activities to enjoy on the property. From cultural landmarks, to art to more leisurely pursuits such as a helicopter tours and sunset cruise on one of the chartered boats berthed here. &#xa;&#xa;&#xa;&lt;a href=&quot;https://www.waterfront.co.za/leisure/attractions/&quot; target=&quot;_blank&quot;>https://www.waterfront.co.za/leisure/attractions/&lt;/a>" id="Point03" url="" target="_blank" pan="-244" skinid="ht_info" tilt="-1.28" title="Attractions"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -150,6 +152,7 @@
       <hotspot description="" id="Point01" url="{node6}" target="$fwd" pan="175.45" skinid="ht_node" tilt="0" title="" distance="18.1677"/>
       <hotspot description="" id="Point02" url="{node12}" target="$fwd" pan="41.7458" skinid="ht_node" tilt="0" title="" distance="24.3453"/>
       <hotspot description="" id="Point03" url="{node4}" target="$fwd" pan="6.84121" skinid="ht_node" tilt="0" title="" distance="43.6506"/>
+      <hotspot description="Harbour House at the V&amp;A Waterfront offers fine dining in a gorgeous setting. With wonderful glass walls encasing the tables you can enjoy the vibe of the Waterfront while you feast on world-class cuisine. The setting is elegant and simple, with the perfect backdrop of the Cape Town harbour.&#xa;&#xa;&lt;a href=&quot; https://www.harbourhouse.co.za/functions/&quot; target=&quot;_blank&quot;> https://www.harbourhouse.co.za/functions/&lt;/a>&#xa;" id="Point04" url="" target="" pan="-70.74" skinid="ht_restaurant" tilt="1.56" title=""/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -184,6 +187,7 @@
       <hotspot description="" id="Point02" url="{node7}" target="$fwd" pan="85.8837" skinid="ht_node" tilt="0" title="" distance="14.5982"/>
       <hotspot description="" id="Point03" url="{node18}" target="$fwd" pan="-123.323" skinid="ht_node" tilt="0" title="" distance="13.6864"/>
       <hotspot description="" id="Point04" url="4eZ-j-pwArY" target="" pan="-301.07" skinid="ht_video_youtube" tilt="-3.81" title="Cape Town Buskers!"/>
+      <hotspot description="Busking is performance art that takes place on the street for voluntary donations – and is practiced all over the world. Contributing to the vibrant atmosphere, it has been an integral part of the V&amp;A Waterfront since inception, some 30 years ago. At The V&amp;A Waterfront however, the busking programme is more than just performing for tips. It is an entrepreneurship development and incubation programme, focused on all types of performers; from musicians and magicians, to freestyle footballers and mime’s alike. The main goal of the programme is to create a platform for young performers to develop their craft and become successful entrepreneurs." id="Point05" url="" target="" pan="-309.78" skinid="ht_info" tilt="-6.46" title="V&amp;A Busker Spot"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -218,6 +222,7 @@
       <hotspot description="" id="Point02" url="{node8}" target="$fwd" pan="-174.703" skinid="ht_node" tilt="0" title="" distance="16.392"/>
       <hotspot description="" id="Point03" url="{node9}" target="$fwd" pan="-245.929" skinid="ht_node" tilt="0" title="" distance="21.5173"/>
       <hotspot description="" id="Point04" url="INELMaYfGL4" target="" pan="-273.85" skinid="ht_video_youtube" tilt="-9.8" title="Dancing street performers"/>
+      <hotspot description="DID YOU KNOW? The Cape Big Wheel is a giant observation wheel that offers a spectacular 360 panoramic view&#xa;of Cape Town from the vibrant V&amp;A Waterfront precinct. Your viewing experience&#xa;across the Mother City includes Table Mountain, Robben Island, Cape Town City&#xa;skyline, Paarl Mountains, and the Cape Town Stadium. WOW! &#xa;The Cape Wheel offers 30 fully enclosed air conditioned cabins that will take you 40 metres above the&#xa;ground in safety and comfort on the four revolution ride." id="Point05" url="" target="" pan="-16.78" skinid="ht_info" tilt="34.98" title="The Cape Big Wheel"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -281,6 +286,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node7}" target="$fwd" pan="4.07134" skinid="ht_node" tilt="0" title="" distance="21.5173"/>
       <hotspot description="" id="Point02" url="{node12}" target="$fwd" pan="-172.037" skinid="ht_node" tilt="0" title="" distance="18.2875"/>
+      <hotspot description="The Amphitheatre at the Waterfront provides a great central spot for live entertainment. The amphitheatre is centrally located, and there are various fast food restaurant as well as sit-down restaurant in the surrounding area. The harbour is a short walk away and table mountain is in full view. The whole area is connected with free wifi." id="Point03" url="" target="" pan="-265.28" skinid="ht_info" tilt="17.4" title="The Amphitheatre"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -475,6 +481,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node15}" target="$fwd" pan="-178.24" skinid="ht_node" tilt="0" title="" distance="27.0899"/>
       <hotspot description="" id="Point02" url="{node13}" target="$fwd" pan="5.87441" skinid="ht_node" tilt="0" title="" distance="16.5132"/>
+      <hotspot description="Union Castle Building houses the South African Maritime Museum. Built in 1919 for Union Castle Mail Steamship Company the building houses the South African Maritime Museum today. The museum showcases the maritime history of Table Bay and houses the largest collection of model ships in South Africa." id="Point03" url="" target="" pan="-280.83" skinid="ht_info" tilt="0.88" title="Union Castle Building"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -508,6 +515,7 @@
       <hotspot description="" id="Point01" url="{node17}" target="$fwd" pan="-166.398" skinid="ht_node" tilt="0" title="" distance="15.5071"/>
       <hotspot description="" id="Point02" url="{node16}" target="$fwd" pan="94.8122" skinid="ht_node" tilt="0" title="" distance="42.3605"/>
       <hotspot description="" id="Point03" url="{node14}" target="$fwd" pan="4.76" skinid="ht_node" tilt="0" title="" distance="27.0899"/>
+      <hotspot description="The NSRI boathouse is an all glass boathouse, designed by Rob Meek. The boathouse is located on the very same slipway where the first port lifeboat was housed in&#xa;1898. The glass boathouse has exceptional architecture holding up the glass panels and the building won an award for its design. The adjacent slipway continues to be used for the overhaul of wooden fishing boats.&#xa;" id="Point04" url="" target="" pan="-45.86" skinid="ht_info" tilt="0.46" title="The NSRI boathouse"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -638,6 +646,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node21}" target="$fwd" pan="-221.994" skinid="ht_node" tilt="0" title="" distance="23.7181"/>
       <hotspot description="" id="Point02" url="{node19}" target="$fwd" pan="17.7631" skinid="ht_node" tilt="0" title="" distance="16.4887"/>
+      <hotspot description="Known as the Life Grand Café Resturant now but in 1902, it was a post office and a tea room with a picturesque position beside&#xa;the water. The largest diamond the world had ever seen passed through it in 1905, en route to London with all the other registered mail, and before transcontinental flight become commonplace, this was where Capetonians boarded passenger ships to Europe. &#xa;&#xa;           " id="Point03" url="" target="" pan="-196.53" skinid="ht_restaurant" tilt="-1.04" title="Life Grand Café Resturant"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -671,6 +680,8 @@
       <hotspot description="" id="Point01" url="{node22}" target="$fwd" pan="115.598" skinid="ht_node" tilt="0" title="" distance="8.68952"/>
       <hotspot description="" id="Point02" url="{node29}" target="$fwd" pan="-125.349" skinid="ht_node" tilt="0" title="" distance="44.7349"/>
       <hotspot description="" id="Point03" url="{node20}" target="$fwd" pan="-8.99368" skinid="ht_node" tilt="0" title="" distance="23.7181"/>
+      <hotspot description="The name of this restaurant is Belgian, the setting is spectacular, and the ambience is international. Situated on the quayside of Cape Town’s V&amp;A Waterfront, Den Anker, now in its 24th year of operation, offers patrons exceptional seafood and other creatively prepared dishes. Enjoy the views from the terrace, or from inside the restaurant, where floor-to-ceiling windows enable you to appreciate just how spectacular Table Mountain can look from this vantage point. The restaurant is also known for its beer tastings and its exclusive Anker Brew– many of the beers on offer are imported from small Belgian breweries. With attentive staff, some tasty local South African specialities, and delicious desserts on the menu, a meal at Den Anker is bound to be memorable.&#xa;&#xa;&lt;a href=&quot; http://denanker.co.za/&quot; target=&quot;_blank&quot;> http://denanker.co.za/&lt;/a>&#xa;" id="Point04" url="" target="" pan="-180.39" skinid="ht_restaurant" tilt="2.5" title="Den Anker"/>
+      <hotspot description="" id="Point05" url="{node23}" target="$fwd" pan="82.5821" skinid="ht_node" tilt="0" title="" distance="32.438"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -703,6 +714,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="129.921" skinid="ht_node" tilt="0" title="" distance="25.5935"/>
       <hotspot description="" id="Point02" url="{node21}" target="$fwd" pan="-6.40188" skinid="ht_node" tilt="0" title="" distance="8.68952"/>
+      <hotspot description="" id="Point03" url="{node29}" target="$fwd" pan="-58.5286" skinid="ht_node" tilt="0" title="" distance="49.5406"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -753,7 +765,7 @@
       <level predecode="1" width="480" height="480" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="62" fovmode="0">
+    <view pannorth="59" fovmode="0">
       <start projection="4" fov="70" pan="0" tilt="0"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
@@ -766,9 +778,9 @@
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="0.763044" skinid="ht_node" tilt="0" title="" distance="51.9567"/>
-      <hotspot description="" id="Point02" url="{node25}" target="$fwd" pan="178.732" skinid="ht_node" tilt="0" title="" distance="37.9697"/>
-      <hotspot description="" id="Point03" url="{node16}" target="$fwd" pan="86.496" skinid="ht_node" tilt="0" title="" distance="67.4606"/>
+      <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="-2.23696" skinid="ht_node" tilt="0" title="" distance="51.9567"/>
+      <hotspot description="" id="Point02" url="{node25}" target="$fwd" pan="175.732" skinid="ht_node" tilt="0" title="" distance="37.9697"/>
+      <hotspot description="" id="Point03" url="{node16}" target="$fwd" pan="83.496" skinid="ht_node" tilt="0" title="" distance="67.4606"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -786,22 +798,23 @@
       <level predecode="1" width="480" height="480" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="56" fovmode="0">
+    <view pannorth="59" fovmode="0">
       <start projection="4" fov="70" pan="0" tilt="0"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
     </view>
     <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90656164" customnodeid="" info="" title="" source="" longitude="18.41990143" nodeid="node25">
-      <mapcoords x_floorplan_percent="46.52" x="0.798569" mapid="Plan" y="-0.713425" y_floorplan_percent="43.6555"/>
+      <mapcoords x_floorplan_percent="45.76" x="0.785522" mapid="Plan" y="-0.720978" y_floorplan_percent="44.1176"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node24}" target="$fwd" pan="-7.26795" skinid="ht_node" tilt="0" title="" distance="37.9697"/>
-      <hotspot description="" id="Point02" url="{node26}" target="$fwd" pan="132.052" skinid="ht_node" tilt="0" title="" distance="19.0009"/>
-      <hotspot description="" id="Point03" url="{node28}" target="$fwd" pan="178.097" skinid="ht_node" tilt="0" title="" distance="32.1417"/>
+      <hotspot description="" id="Point01" url="{node24}" target="$fwd" pan="-4.26795" skinid="ht_node" tilt="0" title="" distance="37.9697"/>
+      <hotspot description="" id="Point02" url="{node26}" target="$fwd" pan="135.052" skinid="ht_node" tilt="0" title="" distance="19.0009"/>
+      <hotspot description="" id="Point03" url="{node28}" target="$fwd" pan="181.097" skinid="ht_node" tilt="0" title="" distance="32.1417"/>
+      <hotspot description="This sophisticated and characterful venue, set right on the Pierhead of the V&amp;A Waterfront, has sweeping views of the harbour, the city and the mountain.It was built in 1904 as the North Quay Warehouse, and converted in 1990 to a 94-room luxury hotel. It is popular with guests and there is a very good reason why it is often called ‘Your home in the heart of the Waterfront’. The ambience of colonial Cape Town is apparent as you step into the foyer, and historical touches abound, such as the information on various shipwrecks around the Cape coast. The hotel has two restaurants and a bar with outstanding views of the mountain and the harbour, as well as excellent spa facilities. It is renowned for its high level of service to both business and leisure travellers, and guests can make use of the travel consultancy, the valet service, a childminding service, a secretarial service and hotel transfer services. It is a favourite location for business and private functions. The superb harbour location puts guests right in the middle of all the attractions, shops and eateries of the Waterfront. &#xa;&lt;a href=&quot;https://www.vahotel.co.za/&#xa;&quot; target=&quot;_blank&quot;>https://www.vahotel.co.za/&#xa;&lt;/a>" id="Point04" url="" target="" pan="-357.39" skinid="ht_info" tilt="0.4" title=""/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -826,7 +839,7 @@
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
     </view>
     <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90652045" customnodeid="" info="" title="" source="" longitude="18.41970161" nodeid="node26">
-      <mapcoords x_floorplan_percent="44.76" x="0.768356" mapid="Plan" y="-0.710678" y_floorplan_percent="43.4874"/>
+      <mapcoords x_floorplan_percent="44.88" x="0.770416" mapid="Plan" y="-0.720978" y_floorplan_percent="44.1176"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
@@ -836,10 +849,11 @@
       <hotspot description="" id="Point02" url="{node27}" target="$fwd" pan="-0.263271" skinid="ht_node" tilt="0" title="" distance="13.5631"/>
       <hotspot description="" id="Point03" url="{node28}" target="$fwd" pan="129.914" skinid="ht_node" tilt="0" title="" distance="23.3737"/>
       <hotspot description="" id="Point04" url="uB6pYdO7Dr8" target="" pan="-296.98" skinid="ht_video_youtube" tilt="-7.17" title="Reinhardt Buhr Looping &amp; Multi Instrumentalist"/>
-      <hotspot description="" id="Point05" url="vXfcpg2RoTQ" target="" pan="-184.99" skinid="ht_video_youtube" tilt="-25.01" title="Performers at V &amp; A Waterfront, Cape Town, South Africa"/>
+      <hotspot description="" id="Point05" url="vXfcpg2RoTQ" target="" pan="-184.83" skinid="ht_video_youtube" tilt="-25.15" title="Performers at V &amp; A Waterfront, Cape Town, South Africa"/>
+      <hotspot description="This is Nobel Square, and the four statues in front of you pay tribute to South Africa’s four Nobel Peace Prize laureates. &#xa;&#xa;Nelson Mandela, at the far right, doesn’t need any introduction. Neither does the man in an&#xa;Anglican robe second from the left. Archbishop Desmond Tutu is a global icon in his own right.&#xa;&#xa;The man standing between them is FW de Clerk. He was our last Apartheid-era president, and one&#xa;of Mandela’s two deputy presidents after the transition to democracy in 1994. &#xa;&#xa;The man on the far left is Chief Albert Luthuli. He was the first to win the Peace Prize, in&#xa;1960, when he was president of the ANC. He died seven years later, making him the only member of this small club who didn’t see in the realisation of a new and better South Africa.&#xa;" id="Point06" url="" target="" pan="-184.5" skinid="ht_info" tilt="-2.82" title="This is Nobel Square"/>
     </hotspots>
     <media>
-      <sound pansize="10.000" id="Element01" field="90.000" loop="1" tiltsize="10.000" startmutedmobile="0" pan="-184.880" nodechangekeep="0" ambientlevel="0.000" tilt="8.120" mode="3" level="1.000">
+      <sound pansize="10.000" id="Element01" field="90.000" loop="-1" tiltsize="10.000" startmutedmobile="0" pan="-184.890" nodechangekeep="0" ambientlevel="0.000" tilt="8.150" mode="3" level="1.000">
         <source url="media/04 Nobel Square 1 07.19.19.mp3"/>
       </sound>
     </media>
@@ -890,7 +904,7 @@
       <level predecode="1" width="480" height="480" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="72" fovmode="0">
+    <view pannorth="58" fovmode="0">
       <start projection="4" fov="70" pan="0" tilt="0"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
@@ -903,7 +917,8 @@
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node25}" target="$fwd" pan="14.0965" skinid="ht_node" tilt="0" title="" distance="32.1417"/>
+      <hotspot description="" id="Point01" url="{node25}" target="$fwd" pan="0.0964821" skinid="ht_node" tilt="0" title="" distance="32.1417"/>
+      <hotspot description="" id="Point02" url="{node26}" target="$fwd" pan="35.9141" skinid="ht_node" tilt="0" title="" distance="23.3737"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -936,6 +951,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node21}" target="$fwd" pan="40.6516" skinid="ht_node" tilt="0" title="" distance="44.7349"/>
       <hotspot description="" id="Point02" url="{node30}" target="$fwd" pan="-186.1" skinid="ht_node" tilt="0" title="" distance="44.7734"/>
+      <hotspot description="Test your strategic skills and mental dexterity on this giant outdoor chess board. The space created for chess forms part of the V&amp;A Waterfront’s development strategy to energise the space between buildings by creating vibrant spaces for visitors of all ages to relax and enjoy the breathtaking views." id="Point03" url="" target="" pan="-327.11" skinid="ht_info" tilt="-10.97" title=""/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -968,6 +984,7 @@
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node29}" target="$fwd" pan="-13.0999" skinid="ht_node" tilt="0" title="" distance="44.7734"/>
       <hotspot description="" id="Point02" url="2S4B_E-ZpO8" target="" pan="-106.23" skinid="ht_video_youtube" tilt="-7.37" title="Micaela's Busking Story"/>
+      <hotspot description="The African Trading Port offers a wide variety of some of the finest examples of African art around. Works of art from many different African countries and cultures are on display here. ATP has been housed in their current location in the Old Port Captain’s Building at Cape Town’s Waterfront since 2001. Over the last few decades, much time has been devoted to sourcing art from successive generations of African artists. There is a wide array of objects d’art including sculpture, artefacts, ceramics, pottery, bronze-ware and glassware. Although the collection focuses on the work of recognised artists, display space is also devoted to some of the younger, emerging artists from the African continent. &#xa;&#xa;&lt;a href=&quot;http://www.africantradingport.co.za  &quot; target=&quot;_blank&quot;>http://www.africantradingport.co.za&lt;/a>" id="Point03" url="" target="" pan="-313.95" skinid="ht_info" tilt="4.67" title="The African Trading Port"/>
     </hotspots>
     <media>
       <lensflare color="0xffffff" blinding="50.000" id="Lensflare01" type="5" alpha="80.000" pan="-104.210" tilt="25.260"/>
@@ -1004,6 +1021,11 @@
       <hotspot description="" id="Point03" url="{node22}" target="-49.2/-2.9/70.0" pan="-293.04" skinid="ht_node" tilt="-33.14" title=""/>
       <hotspot description="" id="Point04" url="{node1}" target="-177.7/-1.8/70.0" pan="-288.06" skinid="ht_node" tilt="-27.88" title=""/>
       <hotspot description="" id="Point05" url="{node9}" target="" pan="-285.38" skinid="ht_node" tilt="-30.84" title=""/>
+      <hotspot description="Could be useful to add some info points on this map also?" id="Point06" url="" target="_blank" pan="-305.67" skinid="ht_info" tilt="-25.84" title="Waterfront"/>
+      <hotspot description="" id="Point07" url="{node13}" target="" pan="-286.88" skinid="ht_node" tilt="-31.85" title=""/>
+      <hotspot description="" id="Point08" url="{node15}" target="" pan="-288.82" skinid="ht_node" tilt="-32.81" title=""/>
+      <hotspot description="" id="Point09" url="{node26}" target="" pan="-286.97" skinid="ht_node" tilt="-35.9" title=""/>
+      <hotspot description="" id="Point10" url="{node24}" target="" pan="-289.78" skinid="ht_node" tilt="-34.91" title=""/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
