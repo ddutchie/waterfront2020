@@ -331,7 +331,7 @@
     </control>
   </panorama>
   <panorama hideabout="1" id="node11">
-    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" overlap="1" levelingroll="0" width="1920" levelingpitch="0" height="1920" leveltilesize="510">
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelbias="0.400" overlap="1" levelingroll="0" width="1920" levelingpitch="1" height="1920" leveltilesize="510">
       <level predecode="0" width="1920" height="1920" preload="0"/>
       <level predecode="0" width="960" height="960" preload="0"/>
       <level predecode="1" width="480" height="480" preload="1"/>
@@ -479,7 +479,7 @@
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node15}" target="$fwd" pan="-178.24" skinid="ht_node" tilt="0" title="" distance="27.0899"/>
+      <hotspot description="" id="Point01" url="{node15}" target="$fwd" pan="-176.885" skinid="ht_node" tilt="0" title="" distance="26.7993"/>
       <hotspot description="" id="Point02" url="{node13}" target="$fwd" pan="5.87441" skinid="ht_node" tilt="0" title="" distance="16.5132"/>
       <hotspot description="Union Castle Building houses the South African Maritime Museum. Built in 1919 for Union Castle Mail Steamship Company the building houses the South African Maritime Museum today. The museum showcases the maritime history of Table Bay and houses the largest collection of model ships in South Africa." id="Point03" url="" target="" pan="-280.83" skinid="ht_info" tilt="0.88" title="Union Castle Building"/>
     </hotspots>
@@ -505,16 +505,16 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90572684" customnodeid="" info="" title="" source="" longitude="18.42039764" nodeid="node15">
+    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90572239" customnodeid="" info="" title="" source="" longitude="18.42040301" nodeid="node15">
       <mapcoords x_floorplan_percent="48.64" x="0.834961" mapid="Plan" y="-0.642014" y_floorplan_percent="39.2857"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node17}" target="$fwd" pan="-166.398" skinid="ht_node" tilt="0" title="" distance="15.5071"/>
-      <hotspot description="" id="Point02" url="{node16}" target="$fwd" pan="94.8122" skinid="ht_node" tilt="0" title="" distance="42.3605"/>
-      <hotspot description="" id="Point03" url="{node14}" target="$fwd" pan="4.76" skinid="ht_node" tilt="0" title="" distance="27.0899"/>
+      <hotspot description="" id="Point01" url="{node17}" target="$fwd" pan="-168.848" skinid="ht_node" tilt="0" title="" distance="15.7186"/>
+      <hotspot description="" id="Point02" url="{node16}" target="$fwd" pan="95.5562" skinid="ht_node" tilt="0" title="" distance="40.1839"/>
+      <hotspot description="" id="Point03" url="{node14}" target="$fwd" pan="6.11493" skinid="ht_node" tilt="0" title="" distance="26.7993"/>
       <hotspot description="The NSRI boathouse is an all glass boathouse, designed by Rob Meek. The boathouse is located on the very same slipway where the first port lifeboat was housed in&#xa;1898. The glass boathouse has exceptional architecture holding up the glass panels and the building won an award for its design. The adjacent slipway continues to be used for the overhaul of wooden fishing boats.&#xa;" id="Point04" url="" target="" pan="-45.86" skinid="ht_info" tilt="0.46" title="The NSRI boathouse"/>
     </hotspots>
     <media/>
@@ -539,15 +539,17 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90585596" customnodeid="" info="" title="" source="" longitude="18.41996580" nodeid="node16">
+    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90584928" customnodeid="" info="" title="" source="" longitude="18.41999531" nodeid="node16">
       <mapcoords x_floorplan_percent="46.4" x="0.796509" mapid="Plan" y="-0.655746" y_floorplan_percent="40.1261"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node27}" target="$fwd" pan="300.619" skinid="ht_node" tilt="0" title="" distance="69.0771"/>
-      <hotspot description="" id="Point02" url="{node24}" target="$fwd" pan="-8.50413" skinid="ht_node" tilt="0" title="" distance="67.4606"/>
+      <hotspot description="" id="Point01" url="{node27}" target="$fwd" pan="298.916" skinid="ht_node" tilt="0" title="" distance="70.9839"/>
+      <hotspot description="" id="Point02" url="{node24}" target="$fwd" pan="-5.20354" skinid="ht_node" tilt="0" title="" distance="66.8797"/>
+      <hotspot description="This sophisticated and characterful venue, set right on the Pierhead of the V&amp;A Waterfront, has sweeping views of the harbour, the city and the mountain.&#xa;It was built in 1904 as the North Quay Warehouse, and converted in 1990 to a 94-room luxury hotel. It is popular with guests and there is a very good reason why it is often called ‘Your home in the heart of the Waterfront’. &#xa;The ambience of colonial Cape Town is apparent as you step into the foyer, and historical touches abound, such as the information on various shipwrecks around the Cape coast. The hotel has two restaurants and a bar with outstanding views of the mountain and the harbour, as well as excellent spa facilities. It is renowned for its high level of service to both business and leisure travellers, and guests can make use of the travel consultancy, the valet service, a childminding service, a secretarial service and hotel transfer services. &#xa;It is a favourite location for business and private functions. The superb harbour location puts guests right in the middle of all the attractions, shops and eateries of the Waterfront.&#xa;&#xa;&lt;a href=&quot;https://newmarkhotels.com/places/hotels/victoria-alfred-hotel/&quot;> https://newmarkhotels.com/places/hotels/victoria-alfred-hotel/&lt;/a>" id="Point03" url="" target="" pan="-35.28" skinid="ht_hotel" tilt="-2.43" title="Victoria &amp; Alfred Hotel"/>
+      <hotspot description="" id="Point04" url="{node15}" target="$fwd" pan="77.5559" skinid="ht_node" tilt="0" title="" distance="40.1839"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -579,8 +581,8 @@
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node19}" target="$fwd" pan="-120" skinid="ht_node" tilt="0" title="" distance="20.2994"/>
-      <hotspot description="" id="Point02" url="{node23}" target="$fwd" pan="-174.75" skinid="ht_node" tilt="0" title="" distance="45.4668"/>
-      <hotspot description="" id="Point03" url="{node15}" target="$fwd" pan="-1.3981" skinid="ht_node" tilt="0" title="" distance="15.5071"/>
+      <hotspot description="" id="Point02" url="{node23}" target="$fwd" pan="-180.606" skinid="ht_node" tilt="0" title="" distance="44.8895"/>
+      <hotspot description="" id="Point03" url="{node15}" target="$fwd" pan="-3.84828" skinid="ht_node" tilt="0" title="" distance="15.7186"/>
       <hotspot description="" id="Point04" url="EnOR_P4dyzg" target="" pan="-17.63" skinid="ht_video_youtube" tilt="-3.06" title="Mohau’s Busking Story"/>
     </hotspots>
     <media/>
@@ -613,7 +615,7 @@
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node20}" target="$fwd" pan="-196.237" skinid="ht_node" tilt="0" title="" distance="16.4887"/>
-      <hotspot description="" id="Point02" url="{node15}" target="$fwd" pan="-50.1555" skinid="ht_node" tilt="0" title="" distance="30.8857"/>
+      <hotspot description="" id="Point02" url="{node15}" target="$fwd" pan="-51.3936" skinid="ht_node" tilt="0" title="" distance="30.6661"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -681,7 +683,7 @@
       <hotspot description="" id="Point02" url="{node29}" target="$fwd" pan="-125.349" skinid="ht_node" tilt="0" title="" distance="44.7349"/>
       <hotspot description="" id="Point03" url="{node20}" target="$fwd" pan="-8.99368" skinid="ht_node" tilt="0" title="" distance="23.7181"/>
       <hotspot description="The name of this restaurant is Belgian, the setting is spectacular, and the ambience is international. Situated on the quayside of Cape Town’s V&amp;A Waterfront, Den Anker, now in its 24th year of operation, offers patrons exceptional seafood and other creatively prepared dishes. Enjoy the views from the terrace, or from inside the restaurant, where floor-to-ceiling windows enable you to appreciate just how spectacular Table Mountain can look from this vantage point. The restaurant is also known for its beer tastings and its exclusive Anker Brew– many of the beers on offer are imported from small Belgian breweries. With attentive staff, some tasty local South African specialities, and delicious desserts on the menu, a meal at Den Anker is bound to be memorable.&#xa;&#xa;&lt;a href=&quot; http://denanker.co.za/&quot; target=&quot;_blank&quot;> http://denanker.co.za/&lt;/a>&#xa;" id="Point04" url="" target="" pan="-180.39" skinid="ht_restaurant" tilt="2.5" title="Den Anker"/>
-      <hotspot description="" id="Point05" url="{node23}" target="$fwd" pan="82.5821" skinid="ht_node" tilt="0" title="" distance="32.438"/>
+      <hotspot description="" id="Point05" url="{node23}" target="$fwd" pan="80.7912" skinid="ht_node" tilt="0" title="" distance="36.9613"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -712,7 +714,7 @@
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="129.921" skinid="ht_node" tilt="0" title="" distance="25.5935"/>
+      <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="129.349" skinid="ht_node" tilt="0" title="" distance="30.2361"/>
       <hotspot description="" id="Point02" url="{node21}" target="$fwd" pan="-6.40188" skinid="ht_node" tilt="0" title="" distance="8.68952"/>
       <hotspot description="" id="Point03" url="{node29}" target="$fwd" pan="-58.5286" skinid="ht_node" tilt="0" title="" distance="49.5406"/>
     </hotspots>
@@ -732,22 +734,22 @@
       <level predecode="1" width="480" height="480" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="59" fovmode="0">
+    <view pannorth="64" fovmode="0">
       <start projection="4" fov="70" pan="0" tilt="0"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90618320" customnodeid="" info="" title="" source="" longitude="18.42076242" nodeid="node23">
+    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90620101" customnodeid="" info="" title="" source="" longitude="18.42071682" nodeid="node23">
       <mapcoords x_floorplan_percent="50.04" x="0.858994" mapid="Plan" y="-0.680466" y_floorplan_percent="41.6387"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node22}" target="$fwd" pan="-2.07901" skinid="ht_node" tilt="0" title="" distance="25.5935"/>
-      <hotspot description="" id="Point02" url="{node24}" target="$fwd" pan="177.763" skinid="ht_node" tilt="0" title="" distance="51.9567"/>
-      <hotspot description="" id="Point03" url="{node17}" target="$fwd" pan="94.2498" skinid="ht_node" tilt="0" title="" distance="45.4668"/>
+      <hotspot description="" id="Point01" url="{node22}" target="$fwd" pan="2.3492" skinid="ht_node" tilt="0" title="" distance="30.2361"/>
+      <hotspot description="" id="Point02" url="{node24}" target="$fwd" pan="183.531" skinid="ht_node" tilt="0" title="" distance="40.6823"/>
+      <hotspot description="" id="Point03" url="{node17}" target="$fwd" pan="93.3943" skinid="ht_node" tilt="0" title="" distance="44.8895"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -771,16 +773,16 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fov="120" fovstereographic="270" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90640804" customnodeid="" info="" title="" source="" longitude="18.42026889" nodeid="node24">
+    <userdata copyright="" author="" description="" comment="" datetime="" tags="KDOutput" latitude="-33.90638134" customnodeid="" info="" title="" source="" longitude="18.42033326" nodeid="node24">
       <mapcoords x_floorplan_percent="47.72" x="0.819168" mapid="Plan" y="-0.702438" y_floorplan_percent="42.9832"/>
     </userdata>
     <hotspots wordwrap="1" width="180" height="20">
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="-2.23696" skinid="ht_node" tilt="0" title="" distance="51.9567"/>
-      <hotspot description="" id="Point02" url="{node25}" target="$fwd" pan="175.732" skinid="ht_node" tilt="0" title="" distance="37.9697"/>
-      <hotspot description="" id="Point03" url="{node16}" target="$fwd" pan="83.496" skinid="ht_node" tilt="0" title="" distance="67.4606"/>
+      <hotspot description="" id="Point01" url="{node23}" target="$fwd" pan="-1.46956" skinid="ht_node" tilt="0" title="" distance="40.6823"/>
+      <hotspot description="" id="Point02" url="{node25}" target="$fwd" pan="175.706" skinid="ht_node" tilt="0" title="" distance="44.6107"/>
+      <hotspot description="" id="Point03" url="{node16}" target="$fwd" pan="86.7966" skinid="ht_node" tilt="0" title="" distance="66.8797"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -811,10 +813,10 @@
       <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" border="1" enabled="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1"/>
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
-      <hotspot description="" id="Point01" url="{node24}" target="$fwd" pan="-4.26795" skinid="ht_node" tilt="0" title="" distance="37.9697"/>
+      <hotspot description="" id="Point01" url="{node24}" target="$fwd" pan="-4.29437" skinid="ht_node" tilt="0" title="" distance="44.6107"/>
       <hotspot description="" id="Point02" url="{node26}" target="$fwd" pan="135.052" skinid="ht_node" tilt="0" title="" distance="19.0009"/>
       <hotspot description="" id="Point03" url="{node28}" target="$fwd" pan="181.097" skinid="ht_node" tilt="0" title="" distance="32.1417"/>
-      <hotspot description="This sophisticated and characterful venue, set right on the Pierhead of the V&amp;A Waterfront, has sweeping views of the harbour, the city and the mountain.It was built in 1904 as the North Quay Warehouse, and converted in 1990 to a 94-room luxury hotel. It is popular with guests and there is a very good reason why it is often called ‘Your home in the heart of the Waterfront’. The ambience of colonial Cape Town is apparent as you step into the foyer, and historical touches abound, such as the information on various shipwrecks around the Cape coast. The hotel has two restaurants and a bar with outstanding views of the mountain and the harbour, as well as excellent spa facilities. It is renowned for its high level of service to both business and leisure travellers, and guests can make use of the travel consultancy, the valet service, a childminding service, a secretarial service and hotel transfer services. It is a favourite location for business and private functions. The superb harbour location puts guests right in the middle of all the attractions, shops and eateries of the Waterfront. &#xa;&lt;a href=&quot;https://www.vahotel.co.za/&#xa;&quot; target=&quot;_blank&quot;>https://www.vahotel.co.za/&#xa;&lt;/a>" id="Point04" url="" target="" pan="-357.39" skinid="ht_info" tilt="0.4" title=""/>
+      <hotspot description="This sophisticated and characterful venue, set right on the Pierhead of the V&amp;A Waterfront, has sweeping views of the harbour, the city and the mountain.It was built in 1904 as the North Quay Warehouse, and converted in 1990 to a 94-room luxury hotel. It is popular with guests and there is a very good reason why it is often called ‘Your home in the heart of the Waterfront’. The ambience of colonial Cape Town is apparent as you step into the foyer, and historical touches abound, such as the information on various shipwrecks around the Cape coast. The hotel has two restaurants and a bar with outstanding views of the mountain and the harbour, as well as excellent spa facilities. It is renowned for its high level of service to both business and leisure travellers, and guests can make use of the travel consultancy, the valet service, a childminding service, a secretarial service and hotel transfer services. It is a favourite location for business and private functions. The superb harbour location puts guests right in the middle of all the attractions, shops and eateries of the Waterfront. &#xa;&lt;a href=&quot;https://www.vahotel.co.za/&#xa;&quot; target=&quot;_blank&quot;>https://www.vahotel.co.za/&#xa;&lt;/a>" id="Point04" url="" target="" pan="-357.39" skinid="ht_info" tilt="0.53" title=""/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
@@ -886,7 +888,7 @@
       <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
       <hotspot description="" id="Point01" url="" target="_blank" pan="0" skinid="ht_logo" tilt="-90" title=""/>
       <hotspot description="" id="Point01" url="{node26}" target="$fwd" pan="-171.263" skinid="ht_node" tilt="0" title="" distance="13.5631"/>
-      <hotspot description="" id="Point02" url="{node16}" target="$fwd" pan="-45.3811" skinid="ht_node" tilt="0" title="" distance="69.0771"/>
+      <hotspot description="" id="Point02" url="{node16}" target="$fwd" pan="-47.0842" skinid="ht_node" tilt="0" title="" distance="70.9839"/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomfov="20" enabled="1" blendcolor="0x000000" zoomoutpause="1"/>
