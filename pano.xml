@@ -258,7 +258,6 @@
       <hotspot distance="18.1677" skinid="ht_node" url="{node5}" pan="-22.5505" description="" target="$fwd" id="Point01" tilt="0" title=""/>
       <hotspot distance="14.5982" skinid="ht_node" url="{node7}" pan="85.8837" description="" target="$fwd" id="Point02" tilt="0" title=""/>
       <hotspot distance="13.6864" skinid="ht_node" url="{node18}" pan="-123.323" description="" target="$fwd" id="Point03" tilt="0" title=""/>
-      <hotspot skinid="ht_video_youtube" url="4eZ-j-pwArY" pan="-301.07" description="" target="" id="Point04" tilt="-3.81" title="Cape Town Buskers!"/>
       <hotspot skinid="ht_info" url="" pan="-309.78" description="Busking is performance art that takes place on the street for voluntary donations – and is practiced all over the world. Contributing to the vibrant atmosphere, it has been an integral part of the V&amp;A Waterfront since inception, some 30 years ago. At The V&amp;A Waterfront however, the busking programme is more than just performing for tips. It is an entrepreneurship development and incubation programme, focused on all types of performers; from musicians and magicians, to freestyle footballers and mime’s alike. The main goal of the programme is to create a platform for young performers to develop their craft and become successful entrepreneurs." target="" id="Point05" tilt="-6.46" title="V&amp;A Busker Spot"/>
       <hotspot skinid="ht_hidden_1" url="" pan="-67.55" description="" target="" id="Point06" tilt="5.1" title=""/>
     </hotspots>
