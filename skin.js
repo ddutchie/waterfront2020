@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: simplex_mod.ggsk
-// Generated 2020-07-09T11:48:09
+// Generated 2020-07-09T12:56:24
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -5881,31 +5881,73 @@ function pano2vrSkin(player,base) {
 			}
 			else if (
 				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
-				((player.getVariableValue('my_total_count') == 1))
+				((player.getVariableValue('my_total_count') >= 10))
 			)
 			{
 				newLogicStateText = 2;
 			}
 			else if (
 				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
-				((player.getVariableValue('my_total_count') == 2))
+				((player.getVariableValue('my_total_count') == 1))
 			)
 			{
 				newLogicStateText = 3;
 			}
 			else if (
 				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
-				((player.getVariableValue('my_total_count') == 3))
+				((player.getVariableValue('my_total_count') == 2))
 			)
 			{
 				newLogicStateText = 4;
 			}
 			else if (
 				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
-				((player.getVariableValue('my_total_count') >= 4))
+				((player.getVariableValue('my_total_count') == 3))
 			)
 			{
 				newLogicStateText = 5;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 4))
+			)
+			{
+				newLogicStateText = 6;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 5))
+			)
+			{
+				newLogicStateText = 7;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 6))
+			)
+			{
+				newLogicStateText = 8;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 7))
+			)
+			{
+				newLogicStateText = 9;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 8))
+			)
+			{
+				newLogicStateText = 10;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 9))
+			)
+			{
+				newLogicStateText = 11;
 			}
 			else {
 				newLogicStateText = -1;
@@ -5946,11 +5988,11 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 2) {
-					me._google_prize_text_desktop.ggText="You have found 1 out of 4 Hidden Logos.";
+					me._google_prize_text_desktop.ggText="You have found all the Hidden Logos.";
 					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
 					if (me._google_prize_text_desktop.ggUpdateText) {
 					me._google_prize_text_desktop.ggUpdateText=function() {
-						var hs="You have found 1 out of 4 Hidden Logos.";
+						var hs="You have found all the Hidden Logos.";
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -5962,11 +6004,11 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 3) {
-					me._google_prize_text_desktop.ggText="You have found 2 out of 4 Hidden Logos.";
+					me._google_prize_text_desktop.ggText="You have found 1 out of 10 Hidden Logos.";
 					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
 					if (me._google_prize_text_desktop.ggUpdateText) {
 					me._google_prize_text_desktop.ggUpdateText=function() {
-						var hs="You have found 2 out of 4 Hidden Logos.";
+						var hs="You have found 1 out of 10 Hidden Logos.";
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -5978,11 +6020,11 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 4) {
-					me._google_prize_text_desktop.ggText="You have found 3 out of 4 Hidden Logos.";
+					me._google_prize_text_desktop.ggText="You have found 2 out of 10 Hidden Logos.";
 					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
 					if (me._google_prize_text_desktop.ggUpdateText) {
 					me._google_prize_text_desktop.ggUpdateText=function() {
-						var hs="You have found 3 out of 4 Hidden Logos.";
+						var hs="You have found 2 out of 10 Hidden Logos.";
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -5994,11 +6036,107 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 5) {
-					me._google_prize_text_desktop.ggText="You have found all the Hidden Logos.";
+					me._google_prize_text_desktop.ggText="You have found 3 out of 10 Hidden Logos.";
 					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
 					if (me._google_prize_text_desktop.ggUpdateText) {
 					me._google_prize_text_desktop.ggUpdateText=function() {
-						var hs="You have found all the Hidden Logos.";
+						var hs="You have found 3 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_desktop.ggUpdatePosition) me._google_prize_text_desktop.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 6) {
+					me._google_prize_text_desktop.ggText="You have found 4 out of 10 Hidden Logos.";
+					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
+					if (me._google_prize_text_desktop.ggUpdateText) {
+					me._google_prize_text_desktop.ggUpdateText=function() {
+						var hs="You have found 4 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_desktop.ggUpdatePosition) me._google_prize_text_desktop.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 7) {
+					me._google_prize_text_desktop.ggText="You have found 5 out of 10 Hidden Logos.";
+					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
+					if (me._google_prize_text_desktop.ggUpdateText) {
+					me._google_prize_text_desktop.ggUpdateText=function() {
+						var hs="You have found 5 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_desktop.ggUpdatePosition) me._google_prize_text_desktop.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 8) {
+					me._google_prize_text_desktop.ggText="You have found 6 out of 10 Hidden Logos.";
+					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
+					if (me._google_prize_text_desktop.ggUpdateText) {
+					me._google_prize_text_desktop.ggUpdateText=function() {
+						var hs="You have found 6 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_desktop.ggUpdatePosition) me._google_prize_text_desktop.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 9) {
+					me._google_prize_text_desktop.ggText="You have found 7 out of 10 Hidden Logos.";
+					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
+					if (me._google_prize_text_desktop.ggUpdateText) {
+					me._google_prize_text_desktop.ggUpdateText=function() {
+						var hs="You have found 7 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_desktop.ggUpdatePosition) me._google_prize_text_desktop.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 10) {
+					me._google_prize_text_desktop.ggText="You have found 8 out of 10 Hidden Logos.";
+					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
+					if (me._google_prize_text_desktop.ggUpdateText) {
+					me._google_prize_text_desktop.ggUpdateText=function() {
+						var hs="You have found 8 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_desktop.ggUpdatePosition) me._google_prize_text_desktop.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_desktop.ggCurrentLogicStateText == 11) {
+					me._google_prize_text_desktop.ggText="You have found 9 out of 10 Hidden Logos.";
+					me._google_prize_text_desktop__text.innerHTML=me._google_prize_text_desktop.ggText;
+					if (me._google_prize_text_desktop.ggUpdateText) {
+					me._google_prize_text_desktop.ggUpdateText=function() {
+						var hs="You have found 9 out of 10 Hidden Logos.";
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -6073,30 +6211,6 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._google_prize_text_mobile.logicBlock_visible = function() {
-			var newLogicStateVisible;
-			if (
-				((player.getViewerSize().width < 450))
-			)
-			{
-				newLogicStateVisible = 0;
-			}
-			else {
-				newLogicStateVisible = -1;
-			}
-			if (me._google_prize_text_mobile.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._google_prize_text_mobile.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._google_prize_text_mobile.style[domTransition]='';
-				if (me._google_prize_text_mobile.ggCurrentLogicStateVisible == 0) {
-					me._google_prize_text_mobile.style.visibility=(Number(me._google_prize_text_mobile.style.opacity)>0||!me._google_prize_text_mobile.style.opacity)?'inherit':'hidden';
-					me._google_prize_text_mobile.ggVisible=true;
-				}
-				else {
-					me._google_prize_text_mobile.style.visibility="hidden";
-					me._google_prize_text_mobile.ggVisible=false;
-				}
-			}
-		}
 		me._google_prize_text_mobile.logicBlock_text = function() {
 			var newLogicStateText;
 			if (
@@ -6114,7 +6228,8 @@ function pano2vrSkin(player,base) {
 			}
 			else if (
 				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
-				((player.getVariableValue('my_total_count') > 0))
+				((player.getVariableValue('my_total_count') > 0)) && 
+				((player.getVariableValue('my_total_count') < 10))
 			)
 			{
 				newLogicStateText = 2;
@@ -6228,6 +6343,388 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.divSkin.appendChild(me._google_prize_text_mobile);
+		el=me._google_prize_text_mobile2=document.createElement('div');
+		els=me._google_prize_text_mobile2__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="google_prize_text_mobile2";
+		el.ggDx=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='bottom : 12%;';
+		hs+='height : 18px;';
+		hs+='left : -10000px;';
+		hs+='position : absolute;';
+		hs+='visibility : hidden;';
+		hs+='width : 100%;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='100% 100%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='bottom:  0px;';
+		hs+='width: 100%;';
+		hs+='height: 18px;';
+		hs+='background: #ffffff;';
+		hs+='border: 0px solid #000000;';
+		hs+='color: #000000;';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		els.innerHTML="Map data: Google, Maxar Technologies";
+		el.appendChild(els);
+		me._google_prize_text_mobile2.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._google_prize_text_mobile2.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getViewerSize().width < 450))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._google_prize_text_mobile2.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._google_prize_text_mobile2.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._google_prize_text_mobile2.style[domTransition]='';
+				if (me._google_prize_text_mobile2.ggCurrentLogicStateVisible == 0) {
+					me._google_prize_text_mobile2.style.visibility=(Number(me._google_prize_text_mobile2.style.opacity)>0||!me._google_prize_text_mobile2.style.opacity)?'inherit':'hidden';
+					me._google_prize_text_mobile2.ggVisible=true;
+				}
+				else {
+					me._google_prize_text_mobile2.style.visibility="hidden";
+					me._google_prize_text_mobile2.ggVisible=false;
+				}
+			}
+		}
+		me._google_prize_text_mobile2.logicBlock_text = function() {
+			var newLogicStateText;
+			if (
+				((me.ggUserdata.tags.indexOf("Mapping") != -1))
+			)
+			{
+				newLogicStateText = 0;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 0))
+			)
+			{
+				newLogicStateText = 1;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') >= 10))
+			)
+			{
+				newLogicStateText = 2;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 1))
+			)
+			{
+				newLogicStateText = 3;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 2))
+			)
+			{
+				newLogicStateText = 4;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 3))
+			)
+			{
+				newLogicStateText = 5;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 4))
+			)
+			{
+				newLogicStateText = 6;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 5))
+			)
+			{
+				newLogicStateText = 7;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 6))
+			)
+			{
+				newLogicStateText = 8;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 7))
+			)
+			{
+				newLogicStateText = 9;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 8))
+			)
+			{
+				newLogicStateText = 10;
+			}
+			else if (
+				((me.ggUserdata.tags.indexOf("Mapping") == -1)) && 
+				((player.getVariableValue('my_total_count') == 9))
+			)
+			{
+				newLogicStateText = 11;
+			}
+			else {
+				newLogicStateText = -1;
+			}
+			if (me._google_prize_text_mobile2.ggCurrentLogicStateText != newLogicStateText) {
+				me._google_prize_text_mobile2.ggCurrentLogicStateText = newLogicStateText;
+				me._google_prize_text_mobile2.style[domTransition]='';
+				if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 0) {
+					me._google_prize_text_mobile2.ggText="Map data: Google, Maxar Technologies";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="Map data: Google, Maxar Technologies";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 1) {
+					me._google_prize_text_mobile2.ggText="Find the Hidden Logos for a chance to win some prizes.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="Find the Hidden Logos for a chance to win some prizes.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 2) {
+					me._google_prize_text_mobile2.ggText="You have found all the Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found all the Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 3) {
+					me._google_prize_text_mobile2.ggText="You have found 1 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 1 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 4) {
+					me._google_prize_text_mobile2.ggText="You have found 2 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 2 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 5) {
+					me._google_prize_text_mobile2.ggText="You have found 3 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 3 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 6) {
+					me._google_prize_text_mobile2.ggText="You have found 4 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 4 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 7) {
+					me._google_prize_text_mobile2.ggText="You have found 5 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 5 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 8) {
+					me._google_prize_text_mobile2.ggText="You have found 6 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 6 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 9) {
+					me._google_prize_text_mobile2.ggText="You have found 7 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 7 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 10) {
+					me._google_prize_text_mobile2.ggText="You have found 8 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 8 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else if (me._google_prize_text_mobile2.ggCurrentLogicStateText == 11) {
+					me._google_prize_text_mobile2.ggText="You have found 9 out of 10 Hidden Logos.";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="You have found 9 out of 10 Hidden Logos.";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+				else {
+					me._google_prize_text_mobile2.ggText="Map data: Google, Maxar Technologies";
+					me._google_prize_text_mobile2__text.innerHTML=me._google_prize_text_mobile2.ggText;
+					if (me._google_prize_text_mobile2.ggUpdateText) {
+					me._google_prize_text_mobile2.ggUpdateText=function() {
+						var hs="Map data: Google, Maxar Technologies";
+						if (hs!=this.ggText) {
+							this.ggText=hs;
+							this.ggTextDiv.innerHTML=hs;
+							if (this.ggUpdatePosition) this.ggUpdatePosition();
+						}
+					}
+					} else {
+						if (me._google_prize_text_mobile2.ggUpdatePosition) me._google_prize_text_mobile2.ggUpdatePosition();
+					}
+				}
+			}
+		}
+		me._google_prize_text_mobile2.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=((this.ggDx * pw)/100.0 + pw/2 - w/2) + 'px';
+			}
+		}
+		me.divSkin.appendChild(me._google_prize_text_mobile2);
 		el=me._pulse_timer=document.createElement('div');
 		el.ggTimestamp=this.ggCurrentTime;
 		el.ggLastIsActive=true;
@@ -30593,7 +31090,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 	me._thumbnail_menu_mobile.logicBlock_alpha();
 	me._branding_mobile.logicBlock_visible();
 	me._google_prize_text_desktop.logicBlock_visible();
-	me._google_prize_text_mobile.logicBlock_visible();
+	me._google_prize_text_mobile2.logicBlock_visible();
 	me._branding_desktop.logicBlock_visible();
 	me._map_popup_desktop.logicBlock_visible();
 	me._svg_2.logicBlock_visible();
@@ -30637,6 +31134,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 	me._external_10.logicBlock_visible();
 	me._google_prize_text_desktop.logicBlock_text();
 	me._google_prize_text_mobile.logicBlock_text();
+	me._google_prize_text_mobile2.logicBlock_text();
 	me._external_5.logicBlock_visible();
 	me._external_4.logicBlock_visible();
 	me._external_3.logicBlock_visible();
@@ -30716,12 +31214,12 @@ pano.setVariableValue("random_ad", randomNumber+1)
 	me._tt_projection0.logicBlock_text();
 	me._tt_projection.logicBlock_text();
 	me._enter_vr.logicBlock_visible();
-	player.addListener('sizechanged', function(args) { me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._branding_mobile.logicBlock_visible();me._google_prize_text_desktop.logicBlock_visible();me._google_prize_text_mobile.logicBlock_visible();me._branding_desktop.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._svg_2.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._fl_desktop.logicBlock_visible();me._fl_mobile.logicBlock_visible();me._sound_on_off.logicBlock_position();me._video_popup_youtube.logicBlock_size();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_size(); });
+	player.addListener('sizechanged', function(args) { me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._branding_mobile.logicBlock_visible();me._google_prize_text_desktop.logicBlock_visible();me._google_prize_text_mobile2.logicBlock_visible();me._branding_desktop.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._svg_2.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._fl_desktop.logicBlock_visible();me._fl_mobile.logicBlock_visible();me._sound_on_off.logicBlock_position();me._video_popup_youtube.logicBlock_size();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_size(); });
 	player.addListener('tilesready', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('tilesrequested', function(args) { me._loading_multires.logicBlock_visible(); });
 	player.addListener('fullscreenenter', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha();me._tt_fullscreen.logicBlock_text(); });
 	player.addListener('fullscreenexit', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha();me._tt_fullscreen.logicBlock_text(); });
-	player.addListener('changenode', function(args) { me._show_controller_button.logicBlock_position();me._loading_multires.logicBlock_visible();me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._loading.logicBlock_visible();me._web_page.logicBlock_visible();me._userdata.logicBlock_visible();me._image_popup.logicBlock_visible();me._popup_image.logicBlock_visible();me._video_popup_file.logicBlock_visible();me._popup_video_file.logicBlock_visible();me._video_popup_controls_file.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._video_popup_controls_url.logicBlock_visible();me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._external_50.logicBlock_visible();me._external_40.logicBlock_visible();me._external_30.logicBlock_visible();me._external_21.logicBlock_visible();me._external_10.logicBlock_visible();me._google_prize_text_desktop.logicBlock_text();me._google_prize_text_mobile.logicBlock_text();me._external_5.logicBlock_visible();me._external_4.logicBlock_visible();me._external_3.logicBlock_visible();me._external_20.logicBlock_visible();me._external_1.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._floorplan.logicBlock_scaling();me._floorplan.logicBlock_alpha();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enable_map.logicBlock_position();me._enable_map.logicBlock_visible();me._tt_show_map.logicBlock_text();me._enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._tt_gyro.logicBlock_text();me._projection_buttons0.logicBlock_position();me._projection_buttons0.logicBlock_visible();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._tt_rotate.logicBlock_text();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._fl_desktop.logicBlock_visible();me._fl_hotels_off0.logicBlock_visible();me._fl_shopping_off0.logicBlock_visible();me._fl_attractions_off0.logicBlock_visible();me._text_10.logicBlock_text();me._fl_mobile.logicBlock_visible();me._fl_hotels_off.logicBlock_visible();me._fl_shopping_off.logicBlock_visible();me._fl_attractions_off.logicBlock_visible();me._text_1.logicBlock_text();me._sound_on_5.logicBlock_visible();me._sound_on_4.logicBlock_visible();me._sound_on_3.logicBlock_visible();me._sound_on_2.logicBlock_visible();me._sound_on_1.logicBlock_visible();me._sound_on_0.logicBlock_visible();me._sound_up.logicBlock_alpha();me._sound_down.logicBlock_alpha();me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._information.logicBlock_visible();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_visible();me._itemfound.logicBlock_visible();me._info_text_body_1.logicBlock_text();me._enter_compitition.logicBlock_visible(); });
+	player.addListener('changenode', function(args) { me._show_controller_button.logicBlock_position();me._loading_multires.logicBlock_visible();me._screentint.logicBlock_alpha();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._loading.logicBlock_visible();me._web_page.logicBlock_visible();me._userdata.logicBlock_visible();me._image_popup.logicBlock_visible();me._popup_image.logicBlock_visible();me._video_popup_file.logicBlock_visible();me._popup_video_file.logicBlock_visible();me._video_popup_controls_file.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._video_popup_controls_url.logicBlock_visible();me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._close.logicBlock_visible();me._external_50.logicBlock_visible();me._external_40.logicBlock_visible();me._external_30.logicBlock_visible();me._external_21.logicBlock_visible();me._external_10.logicBlock_visible();me._google_prize_text_desktop.logicBlock_text();me._google_prize_text_mobile.logicBlock_text();me._google_prize_text_mobile2.logicBlock_text();me._external_5.logicBlock_visible();me._external_4.logicBlock_visible();me._external_3.logicBlock_visible();me._external_20.logicBlock_visible();me._external_1.logicBlock_visible();me._map_popup_desktop.logicBlock_visible();me._floorplan.logicBlock_scaling();me._floorplan.logicBlock_alpha();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enable_map.logicBlock_position();me._enable_map.logicBlock_visible();me._tt_show_map.logicBlock_text();me._enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._tt_gyro.logicBlock_text();me._projection_buttons0.logicBlock_position();me._projection_buttons0.logicBlock_visible();me._projection_buttons.logicBlock_position();me._projection_buttons.logicBlock_visible();me._thumbnail.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_text();me._info.logicBlock_position();me._info.logicBlock_visible();me._autorotate_buttons.logicBlock_position();me._autorotate_buttons.logicBlock_visible();me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._tt_rotate.logicBlock_text();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._fl_desktop.logicBlock_visible();me._fl_hotels_off0.logicBlock_visible();me._fl_shopping_off0.logicBlock_visible();me._fl_attractions_off0.logicBlock_visible();me._text_10.logicBlock_text();me._fl_mobile.logicBlock_visible();me._fl_hotels_off.logicBlock_visible();me._fl_shopping_off.logicBlock_visible();me._fl_attractions_off.logicBlock_visible();me._text_1.logicBlock_text();me._sound_on_5.logicBlock_visible();me._sound_on_4.logicBlock_visible();me._sound_on_3.logicBlock_visible();me._sound_on_2.logicBlock_visible();me._sound_on_1.logicBlock_visible();me._sound_on_0.logicBlock_visible();me._sound_up.logicBlock_alpha();me._sound_down.logicBlock_alpha();me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._information.logicBlock_visible();me._info_text_body.logicBlock_position();me._info_text_body.logicBlock_size();me._infoimage.logicBlock_visible();me._itemfound.logicBlock_visible();me._info_text_body_1.logicBlock_text();me._enter_compitition.logicBlock_visible(); });
 	player.addListener('configloaded', function(args) { me._tt_show_controller.logicBlock_position();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me._tt_show_map.logicBlock_position();me._tt_enter_vr.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._tt_fullscreen.logicBlock_position();me._gyro.logicBlock_visible();me._tt_gyro.logicBlock_position();me._tt_projection0.logicBlock_position();me._tt_projection.logicBlock_position();me._thumbnail.logicBlock_visible();me._tt_thumbnail_open.logicBlock_position();me._tt_userdata.logicBlock_position();me._tt_rotate.logicBlock_position();me._tt_zoomout.logicBlock_position();me._tt_zoomin.logicBlock_position();me._information.logicBlock_size();me._itemfound.logicBlock_size();me._enter_compitition.logicBlock_size(); });
 	player.addListener('projectionchanged', function(args) { me._tt_projection0.logicBlock_text();me._tt_projection.logicBlock_text(); });
 	player.addListener('autorotatechanged', function(args) { me._autorotate_start.logicBlock_alpha();me._autorotate_stop.logicBlock_alpha();me._tt_rotate.logicBlock_text(); });
@@ -30748,7 +31246,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 	player.addListener('varchanged_opt_loader', function(args) { me._loading.logicBlock_visible(); });
 	player.addListener('varchanged_opt_gyro', function(args) { me.__360image_gyro.logicBlock_visible();me._gyro.logicBlock_visible(); });
 	player.addListener('varchanged_vis_360image_once', function(args) { me.__360image_gyro.logicBlock_visible(); });
-	player.addListener('varchanged_my_total_count', function(args) { me._google_prize_text_desktop.logicBlock_text();me._google_prize_text_mobile.logicBlock_text();me._info_text_body_1.logicBlock_text(); });
+	player.addListener('varchanged_my_total_count', function(args) { me._google_prize_text_desktop.logicBlock_text();me._google_prize_text_mobile.logicBlock_text();me._google_prize_text_mobile2.logicBlock_text();me._info_text_body_1.logicBlock_text(); });
 	player.addListener('varchanged_vis_map', function(args) { me._map_popup_desktop.logicBlock_visible();me._tt_show_map.logicBlock_text(); });
 	player.addListener('varchanged_vis_item_found', function(args) { me._itemfound.logicBlock_visible(); });
 	player.addListener('varchanged_viz_foundall', function(args) { me._enter_compitition.logicBlock_visible(); });

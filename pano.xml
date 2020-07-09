@@ -226,6 +226,7 @@
       <hotspot id="Point05" tilt="0" target="$fwd" skinid="ht_node" distance="84.4393" pan="6.3533" title="" description="" url="{node3}"/>
       <hotspot id="Point02" tilt="7.29" target="$fwd" skinid="ht_node" distance="36.7983" pan="40.1474" title="" description="" url="{node10}"/>
       <hotspot id="Point01" tilt="0.9" target="" skinid="ht_restaurant" pan="-336.49" title="Sevruga" description="Sevruga is one of Cape Town’s premium dining establishments, and it offers patrons both superb dining and a sophisticated atmosphere. The menu caters for a wide variety of tastes, ranging from modest meals to taste sensations, which offer more intricate and complex flavours. Perfection is difficult to achieve, but the staff at this restaurant do everything they can to exceed your expectations. In short, Sevruga offers an excellent wine list and exquisite dining in an elegant atmosphere. &#xa;&lt;a href=&quot;&#xa;https://www.sevruga.co.za/ &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://www.sevruga.co.za/ &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Logo5" tilt="0.11" target="_blank" skinid="ht_hidden_5" pan="-278.86" title="" description="" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -260,7 +261,7 @@
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="14.5982" pan="85.8837" title="" description="" url="{node7}"/>
       <hotspot id="Point03" tilt="0" target="$fwd" skinid="ht_node" distance="13.6864" pan="-123.323" title="" description="" url="{node18}"/>
       <hotspot id="Point05" tilt="-6.46" target="" skinid="ht_info" pan="-309.78" title="V&amp;A Busker Spot" description="Busking is performance art that takes place on the street for voluntary donations – and is practiced all over the world. Contributing to the vibrant atmosphere, it has been an integral part of the V&amp;A Waterfront since inception, some 30 years ago. At The V&amp;A Waterfront however, the busking programme is more than just performing for tips. It is an entrepreneurship development and incubation programme, focused on all types of performers; from musicians and magicians, to freestyle footballers and mime’s alike. The main goal of the programme is to create a platform for young performers to develop their craft and become successful entrepreneurs." url=""/>
-      <hotspot id="Point06" tilt="5.1" target="" skinid="ht_hidden_1" pan="-67.55" title="" description="" url=""/>
+      <hotspot id="Logo1" tilt="5.1" target="" skinid="ht_hidden_1" pan="-67.55" title="" description="" url=""/>
     </hotspots>
     <media>
       <sound id="Element01" startmutedmobile="0" tilt="-12.590" tiltsize="10.000" mode="1" pansize="10.000" loop="1" field="90.000" pan="-313.020" nodechangekeep="0" level="1.000" ambientlevel="0.000">
@@ -367,7 +368,7 @@
       <hotspot id="Point01" tilt="-90" target="_blank" skinid="ht_logo" pan="0" title="" description="" url=""/>
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="21.5173" pan="4.07134" title="" description="" url="{node7}"/>
       <hotspot id="Point03" tilt="-7.87" target="" skinid="ht_info" pan="-108.87" title="The Amphitheatre" description="The Amphitheatre at the Waterfront provides a great central spot for live entertainment. The amphitheatre is centrally located, and there are various fast food restaurant as well as sit-down restaurant in the surrounding area. The harbour is a short walk away and table mountain is in full view. The whole area is connected with free wifi." url=""/>
-      <hotspot id="Point06" tilt="25.99" target="" skinid="ht_hidden_2" pan="-267.26" title="" description="" url=""/>
+      <hotspot id="Logo2" tilt="25.99" target="" skinid="ht_hidden_2" pan="-267.26" title="" description="" url=""/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="30.3847" pan="-162.552" title="" description="" url="{node10}"/>
       <hotspot id="Point04" tilt="-5.22" target="" skinid="ht_video_youtube" pan="-266.29" title="Hakuna Matata - Hassan'Adas | Cape Town Jazzathon 2020 Festival Live Performance" description="" url="z5wsZV_GwDY"/>
     </hotspots>
@@ -404,6 +405,7 @@
       <hotspot id="Point02" tilt="-9.65" target="" skinid="ht_video_youtube" pan="-87.6" title="Al Petersen Busking" description="" url="WcV68RJ1NkI"/>
       <hotspot id="Point03" tilt="0.25" target="$fwd" skinid="ht_node" distance="30.3847" pan="144.248" title="" description="" url="{node9}"/>
       <hotspot id="Point04" tilt="-6.5" target="$fwd" skinid="ht_node" distance="36.7983" pan="185.547" title="" description="" url="{node5}"/>
+      <hotspot id="Point05" tilt="48.58" target="_blank" skinid="ht_hidden_6" pan="-2.57" title="" description="" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -467,10 +469,6 @@
       <hotspot id="Point01" tilt="-90" target="_blank" skinid="ht_logo" pan="0" title="" description="" url=""/>
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="18.6033" pan="-181.8" title="" description="" url="{node13}"/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="13.6864" pan="-1.32248" title="" description="" url="{node6}"/>
-      <hotspot id="Point03" tilt="28.83" target="" skinid="ht_hidden_1" pan="-41.31" title="" description="" url=""/>
-      <hotspot id="Point04" tilt="35.31" target="" skinid="ht_hidden_2" pan="-61.69" title="" description="" url=""/>
-      <hotspot id="Point05" tilt="36.32" target="" skinid="ht_hidden_3" pan="-83.71" title="" description="" url=""/>
-      <hotspot id="Point06" tilt="33.27" target="" skinid="ht_hidden_4" pan="-102.43" title="" description="" url=""/>
     </hotspots>
     <media>
       <sound id="Element01" startmutedmobile="0" tilt="-2.110" tiltsize="10.000" mode="3" pansize="10.000" loop="1" field="90.000" pan="-1.140" nodechangekeep="0" level="1.000" ambientlevel="0.000">
@@ -576,7 +574,7 @@
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="40.1839" pan="95.5562" title="" description="" url="{node16}"/>
       <hotspot id="Point03" tilt="0" target="$fwd" skinid="ht_node" distance="26.7993" pan="6.11493" title="" description="" url="{node14}"/>
       <hotspot id="Point04" tilt="0.46" target="" skinid="ht_info" pan="-45.86" title="The NSRI boathouse" description="The NSRI boathouse is an all glass boathouse, designed by Rob Meek. The boathouse is located on the very same slipway where the first port lifeboat was housed in&#xa;1898. The glass boathouse has exceptional architecture holding up the glass panels and the building won an award for its design. The adjacent slipway continues to be used for the overhaul of wooden fishing boats.&#xa;" url=""/>
-      <hotspot id="Point05" tilt="17.29" target="" skinid="ht_hidden_3" pan="-309.73" title="" description="" url=""/>
+      <hotspot id="Logo3" tilt="17.29" target="" skinid="ht_hidden_3" pan="-309.73" title="" description="" url=""/>
     </hotspots>
     <media>
       <sound id="Element01" startmutedmobile="0" tilt="-7.680" tiltsize="10.000" mode="1" pansize="10.000" loop="1" field="90.000" pan="-159.840" nodechangekeep="0" level="1.000" ambientlevel="0.000">
@@ -655,6 +653,7 @@
       <hotspot id="Point03" tilt="0" target="$fwd" skinid="ht_node" distance="15.7186" pan="-3.84828" title="" description="" url="{node15}"/>
       <hotspot id="Point04" tilt="-3.06" target="" skinid="ht_video_youtube" pan="-17.63" title="Mohau’s Busking Story" description="" url="EnOR_P4dyzg"/>
       <hotspot id="Point01" tilt="5.81" target="" skinid="ht_restaurant" pan="-204.46" title="Café Alfredo" description="Situated on the ground level at the entrance to the Victoria Wharf, Café Alfredo spills out onto the Pierhead where inviting tables welcome guests. The friendly, relaxed setting combined with Euro-café styled food makes this café a winner any time of the day. Most of the seating is outdoors and it overlooks the pedestrian thoroughfare where musicians, dancers and singers entertain the crowds. The café serves breakfast, lunch and dinner. Pop in for coffee, cake or a meal, and watch the world go by. &#xa;&#xa;&lt;a href=&quot;&#xa;https://cafe-alfredo.business.site/ &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://cafe-alfredo.business.site/  &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Logo4" tilt="27.56" target="" skinid="ht_hidden_4" pan="-177.85" title="" description="" url=""/>
     </hotspots>
     <media>
       <sound id="Element01" startmutedmobile="0" tilt="-3.860" tiltsize="10.000" mode="3" pansize="10.000" loop="1" field="90.000" pan="-11.820" nodechangekeep="0" level="1.000" ambientlevel="0.000">
@@ -941,6 +940,7 @@
       <hotspot id="Point03" tilt="0" target="$fwd" skinid="ht_node" distance="23.3737" pan="129.914" title="" description="" url="{node28}"/>
       <hotspot id="Point04" tilt="-7.17" target="" skinid="ht_video_youtube" pan="-296.98" title="Reinhardt Buhr Looping &amp; Multi Instrumentalist" description="" url="uB6pYdO7Dr8"/>
       <hotspot id="Point05" tilt="-25.15" target="" skinid="ht_video_youtube" pan="-184.83" title="Performers at V &amp; A Waterfront, Cape Town, South Africa" description="" url="vXfcpg2RoTQ"/>
+      <hotspot id="Point06" tilt="-56.88" target="" skinid="ht_info" pan="-186.35" title="Nobel Square&#xa;" description="Claudette Schreuders - 2018&#xa;&#xa;&#xa;Oversized bronzes by Claudette Schreuders represent the four South African Nobel Peace Laureates: The late Nkosi Albert Luthuli, Archbishop Emeritus Desmond Tutu, former State President FW de Klerk and former President Nelson Mandela." url=""/>
     </hotspots>
     <media>
       <sound id="Element01" startmutedmobile="0" tilt="-1.390" tiltsize="10.000" mode="1" pansize="10.000" loop="1" field="90.000" pan="-184.850" nodechangekeep="0" level="1.000" ambientlevel="0.000">
@@ -979,6 +979,7 @@
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="70.9839" pan="-47.0842" title="" description="" url="{node16}"/>
       <hotspot id="Point01" tilt="0.12" target="" skinid="ht_restaurant" pan="-218.02" title="V&amp;A Food Market" description="The V&amp;A Food Market is South Africa’s latest and most tantalising street food experience. Here you can meander through the stalls and taste many delicious treats. Experience an adventure of flavours in this authentic market environment, where you can choose between local gourmet foods and international street food. Have a craft beer, sip a cappuccino, or even have an ice cream. There’s something for the whole family. &#xa;&#xa;&lt;a href=&quot;&#xa;http://waterfrontfoodmarket.com/  &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;http://waterfrontfoodmarket.com/  &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
       <hotspot id="Point03" use3D="1" tilt="12.81" target="" customimagewidth="0" distance3D="0" skinid="ht_info" customimageheight="0" customimage="media/Power station.jpg" fov="10" pan="-249.15" title="Old Power Station" description="Did you know: This used to be a Power Station long before it became the V&amp;A Food Market?" url=""/>
+      <hotspot id="Point04" tilt="-10.98" target="_blank" skinid="ht_url" pan="-168.04" title="Peace and Democracy&#xa;" description="Noria Mabasa - 2018&#xa;&#xa;&#xa;This complex bronze sculpture by Noria Mabasa, is a work acknowledging the contribution of women and children to the attainment of peace in South Africa." url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1083,7 +1084,7 @@
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="44.7734" pan="-13.0999" title="" description="" url="{node29}"/>
       <hotspot id="Point02" tilt="-7.37" target="" skinid="ht_video_youtube" pan="-106.23" title="Micaela's Busking Story" description="" url="2S4B_E-ZpO8"/>
       <hotspot id="Point03" tilt="4.67" target="" skinid="ht_info" pan="-313.95" title="The African Trading Port" description="The African Trading Port offers a wide variety of some of the finest examples of African art around. Works of art from many different African countries and cultures are on display here. ATP has been housed in their current location in the Old Port Captain’s Building at Cape Town’s Waterfront since 2001. Over the last few decades, much time has been devoted to sourcing art from successive generations of African artists. There is a wide array of objects d’art including sculpture, artefacts, ceramics, pottery, bronze-ware and glassware. Although the collection focuses on the work of recognised artists, display space is also devoted to some of the younger, emerging artists from the African continent. &#xa;&#xa;&lt;a href=&quot;http://www.africantradingport.co.za  &quot; target=&quot;_blank&quot;>http://www.africantradingport.co.za&lt;/a>" url=""/>
-      <hotspot id="Point04" tilt="20.61" target="" skinid="ht_hidden_4" pan="-314.64" title="" description="" url=""/>
+      <hotspot id="Logo7" tilt="20.61" target="" skinid="ht_hidden_7" pan="-314.64" title="" description="" url=""/>
       <hotspot id="Point05" tilt="0" target="$fwd" skinid="ht_node" distance="61.3001" pan="-232.157" title="" description="" url="{node32}"/>
     </hotspots>
     <media/>
@@ -1153,7 +1154,7 @@
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot id="Point01" tilt="-90" target="_blank" skinid="ht_logo" pan="0" title="" description="" url=""/>
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="46.6467" pan="349.167" title="" description="" url="{node32}"/>
-      <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="13.6001" pan="298.926" title="" description="" url="{node46}"/>
+      <hotspot id="Point02" tilt="-11.57" target="$fwd" skinid="ht_node" distance="13.6001" pan="295.546" title="" description="" url="{node46}"/>
     </hotspots>
     <media>
       <sound id="Element01" startmutedmobile="0" tilt="-18.430" tiltsize="10.000" mode="1" pansize="10.000" loop="1" field="90.000" pan="-91.930" nodechangekeep="0" level="1.000" ambientlevel="0.000">
@@ -1255,6 +1256,8 @@
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="28" pan="-5" title="" description="" url="{node34}"/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="80.5733" pan="-178.156" title="" description="" url="{node36}"/>
       <hotspot id="Point01" tilt="1.22" target="" skinid="ht_restaurant" pan="-307.46" title="Kapstadt Brauhaus" description="The Kapstadt Brauhaus offers a menu of traditional German cuisine, including eisbein, schnitzels, pretzels, German sausages and alpine pizza. Patrons can also pull in for a pint of one of the many local and international beers on offer. &#xa;The restaurant has ample seating inside and outside, with beautiful views of the harbour. &#xa;&#xa;&lt;a href=&quot;&#xa;https://www.kapstadtbrauhaus.co.za/&#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://www.kapstadtbrauhaus.co.za/&#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Point03" tilt="1.09" target="" skinid="ht_info" pan="-165.67" title="a (non) | everything your heart desires " description="Katharien De Villiers - 2019&#xa;&#xa;&#xa;Engaging with the diversity of the Cape Town public space, I have been driven to find a way of making art approachable and unique in its experience.&#xa;A(non) is an installation crafted to un-inhabit the space. The the use of material&#xa;and kinetic qualities activated by the viewer implies that the work can only fully be experienced when viewers are participating. Each viewer will experience the work differently allowing the work to transform in meaning and nature.&#xa;The work which absorbs, reflects and produces light is a meditative allowance – a time-out zone as a moment to escape, reboot and re-centre for both big and little. There is something magical about light activated by touch, and one&#xa;becomes particularly aware in interacting with A(non). The works stand as&#xa;shrines or sanctuaries in their collective solitudes. Strange domes to step under&#xa;and be transported into a different galaxy within which the experience is entirely your own.&#xa;A(non) is a seductive, playful and mesmerising piece, designed for a universal&#xa;platform of experience and understanding- something I believe there is much to&#xa;little of." url=""/>
+      <hotspot id="Point04" tilt="32.79" target="" skinid="ht_hidden_10" pan="-150.3" title="Logo10" description="" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1287,6 +1290,7 @@
       <hotspot id="Point01" tilt="-90" target="_blank" skinid="ht_logo" pan="0" title="" description="" url=""/>
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="80.5733" pan="6.8438" title="" description="" url="{node35}"/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="47.3681" pan="-175.155" title="" description="" url="{node37}"/>
+      <hotspot id="Point03" tilt="-7.37" target="" skinid="ht_info" pan="-195.08" title="MONEY/POEMS/DANCERS&#xa;" description="Cameron Platter - 2015&#xa;&#xa;&#xa;Cameron Platter was the Zeitz MOCAA Art in Public Places Artist in Residence for 2015. On these five planters he has added an ironic twist to the busyness that happens in this district. Look closely at the faux Ndembele design and you will make out the words “NEED MONEY”.&#xa;" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1353,6 +1357,7 @@
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot id="Point01" tilt="-90" target="_blank" skinid="ht_logo" pan="0" title="" description="" url=""/>
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="16.8752" pan="-70.5689" title="" description="" url="{node37}"/>
+      <hotspot id="Point02" tilt="1.15" target="" skinid="ht_info" pan="-45.33" title="Isimagodo&#xa;" description="Victor Ehikamenor- 2016&#xa;&#xa;&#xa;Isimagodo - The unkowable is the mystery and core essence of an ancient masquerade that is only known to the initiates of Esanland in Edo State, Nigeria. Growing up, Isimagodoas a masquearde was a complex enigmatic phenomenon for the artist to understand&#xa;The sculpture is a metophor of that childhood larger than life phantasmagoric memory. The artist has also come to see his succesive governments as Isimagodo, something he cannot quite understand despite their existence." url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1388,6 +1393,7 @@
       <hotspot id="Point03" tilt="0" target="$fwd" skinid="ht_node" distance="33.5814" pan="-274.618" title="" description="" url="{node44}"/>
       <hotspot id="Point04" tilt="-1.71" target="" skinid="ht_video_youtube" pan="-243.47" title="V&amp;A Father's Day Motor Show Highlights" description="" url="L5odCDUcz2U"/>
       <hotspot id="Point12" use3D="0" tilt="0.1" target="_blank" customimagewidth="50" distance3D="285.751" skinid="ht_attractions" customimageheight="50" customimage="media/Attractions.png" fov="10" pan="-181.54" title="Zeitz Museum of Contemporary Art Africa" description="Innovative exhibits &amp; installations by African artists showcased in a redesigned grain silo.&#xa;&#xa;&lt;a href=&quot;&#xa;&#xa;http://zeitzmocaa.museum/&#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;http://zeitzmocaa.museum/&#xa;&lt;/a>&#xa;&#xa;" url=""/>
+      <hotspot id="Logo8" tilt="75.6" target="" skinid="ht_hidden_8" pan="-169.61" title="" description="" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1421,6 +1427,7 @@
       <hotspot id="Point01" tilt="8.41" target="$fwd" skinid="ht_node" distance="30.4632" pan="333.371" title="" description="" url="{node37}"/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="47.1513" pan="404.256" title="" description="" url="{node39}"/>
       <hotspot id="Point03" tilt="0" target="$fwd" skinid="ht_node" distance="32.2083" pan="134.621" title="" description="" url="{node41}"/>
+      <hotspot id="Logo9" tilt="54.55" target="" skinid="ht_hidden_9" pan="-77.56" title="" description="" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1454,6 +1461,7 @@
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="32.2083" pan="2.62145" title="" description="" url="{node40}"/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="76.7712" pan="-219.474" title="" description="" url="{node42}"/>
       <hotspot id="Point01" tilt="0.19" target="" skinid="ht_attractions" pan="-164.11" title="LINDT Chocolate Studio" description="The Lindt Chocolate Boutique &amp; Studio offers customers the full Lindt product range (which includes pralines and macaroons) as well as an opportunity to attend chocolate classes. At this studio, chocolate enthusiasts can participate in a variety of exciting classes presented by Lindt master chocolatiers, and gain insight into the secret world of chocolate. &#xa;&#xa;&lt;a href=&quot;&#xa;https://chocolatestudio.co.za/   &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://chocolatestudio.co.za/ &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Falsework IV&#xa;" tilt="5.97" target="" skinid="ht_info" pan="-256.18" title="Falsework IV&#xa;" description="Kyle Morland - 2015&#xa;&#xa;&#xa;This abstract sculpture challenges us to find form, beauty and meaning in something that is not obviously recognizable. Abstraction has been a driving force in sculpture since the 20th Century. For thousands of years, sculpture’s main role was to commemorate the subject, the sitter, and represent their position in society. Abstract sculptors free themselves from the constraints of the represented and indulge in the technical language of sculpture itself: Form, shape, space, weight, material, colour, composition, line, texture, tone, contrast and scale etc.&#xa;" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1487,6 +1495,8 @@
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="76.7712" pan="77.5259" title="" description="" url="{node41}"/>
       <hotspot id="Point02" tilt="0" target="$fwd" skinid="ht_node" distance="55.885" pan="147.242" title="" description="" url="{node43}"/>
       <hotspot id="Point01" tilt="0.52" target="" skinid="ht_restaurant" pan="-136.82" title="The Yard" description="The food is Euro-Asian with an Indian twist, and there are chalkboard specials and a buffet from which to choose. The options range from fine dining to casual café meals and on offer is also a selection of fine chocolates, preserves, cheeses and a charcuterie in the delis section. Every day there is something different to explore, whether you are dining or shopping – or both. &#xa;&#xa;&lt;a href=&quot;&#xa;https://www.theyardatsilo.co.za/  &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://www.theyardatsilo.co.za/ &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Point03" tilt="-8.28" target="_blank" skinid="ht_url" pan="-261.2" title="Young Sailors&#xa;" description="Sanell Aggenbach - 2019&#xa;&#xa;&#xa;Sanell Aggenbach’s artwork Young Sailors whimsically combines the idea of Maritime exploration and the adventure inherent in a child’s sense of play and imagination.&#xa;Using the motif of an origami paper boat that has been up-scaled and designed to hold child passengers, Aggenbach has combined her artistic skill with Manuel Mendes, one of the Waterfront’s long-time boat builders. In Young Sailors Aggenbach has created an elegant and charming metaphor alluding to the V&amp;A as a functioning harbour but also as a space of play and possibility in it’s role as a home for world-class art and design. &#xa;&#xa;Born in Cape Town in 1975, Aggenbach currently lives and works in Woodstock, Cape Town. Her explorative work has secured her many achievements. She is represented in numerous public and private collections, including Sasol, Absa, Spier, SABC, Red Bull (Austria), the South African National Gallery, 21C Museum in Kentucky (USA) and Anglo Gold." url=""/>
+      <hotspot id="Point04" tilt="3.85" target="" skinid="ht_info" pan="-10.33" title="Ice-cream Cone and Blue Cheese&#xa;" description="Gavin Young - 2018&#xa;&#xa;&#xa;This playful but monumental bronze and wood sculpture plays with shape and form. It references Paul Cezanne’s concept that we see, or should see, the world through schematized shapes and geometric simplification." url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
@@ -1584,7 +1594,8 @@
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot id="Point01" tilt="-90" target="_blank" skinid="ht_logo" pan="0" title="" description="" url=""/>
       <hotspot id="Point01" tilt="0" target="$fwd" skinid="ht_node" distance="55.4828" pan="5.79355" title="" description="" url="{node43}"/>
-      <hotspot id="Point01" tilt="0.3" target="" skinid="ht_restaurant" pan="-152.56" title="Southern Guild " description="Southern Guild is the sole gallery representing locally made collectible design in Africa. It commissions South Africa’s leading designers to create their most groundbreaking work, setting new benchmarks of quality and originality for the design industry at large. The gallery holds regular exhibitions of contemporary furniture, lighting, ceramics, sculpture and jewellery that have redefined perceptions of African design and established the gallery as a relevant and ground-breaking player in the global design arena. &#xa;The gallery itself is a dynamic, curated space hosting exhibitions that change every two to three months. New shows are mounted alongside a regularly updated showroom of available works and a store selling our own collection of designer products. &#xa;&#xa;&lt;a href=&quot;&#xa;https://southernguild.co.za/  &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://southernguild.co.za/ &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Point01" tilt="0.3" target="" skinid="ht_attractions" pan="-152.56" title="Southern Guild " description="Southern Guild is the sole gallery representing locally made collectible design in Africa. It commissions South Africa’s leading designers to create their most groundbreaking work, setting new benchmarks of quality and originality for the design industry at large. The gallery holds regular exhibitions of contemporary furniture, lighting, ceramics, sculpture and jewellery that have redefined perceptions of African design and established the gallery as a relevant and ground-breaking player in the global design arena. &#xa;The gallery itself is a dynamic, curated space hosting exhibitions that change every two to three months. New shows are mounted alongside a regularly updated showroom of available works and a store selling our own collection of designer products. &#xa;&#xa;&lt;a href=&quot;&#xa;https://southernguild.co.za/  &#xa;&#xa;&quot;  target=&quot;_blank&quot;>&#xa;https://southernguild.co.za/ &#xa;&lt;/a>&#xa;&#xa;&#xa;" url=""/>
+      <hotspot id="Point02" tilt="0.21" target="" skinid="ht_info" pan="-0.96" title="Cerebral Aspects&#xa;" description="Marco Cianfanelli - 2019&#xa;&#xa;&#xa;Marco Cianfanelli’s previous explorations of the human brain as form, find new dimension in an exploratory series of digitally altered brain-like objects.&#xa;At the base of our brain, we hold the primal information of our ancestry; it is the living mechanism by which we are innately linked to our past. The faceted forms of the object are geometric distillations of the brain’s vast, organic topography. The geometric brain is a symbol that embodies the human desire to identify categorically and represent symbolically, an unquantifiable flux of information. &#xa;Condensing the intricacy of the organ into reduced, geometric forms allows it to adopt the appearance of a Paleolithic stone implement. In its materiality, the form points to a duality between progress and destruction inherent in technological advancement. More than implement, the form is an artifact of the present and whether viewed as a large feature in the landscape, or an implement of survival, it conjures the past and hypothesizes a future trajectory. It speaks to the collection of significant historical artifacts and marks our technological evolution, locating us in time and suggesting that our greatest and yet most dangerous tool is, in fact, our brain.&#xa;" url=""/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" zoomout="0" zoomin="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomfov="20" zoomoutpause="1" blendcolor="0x000000"/>
