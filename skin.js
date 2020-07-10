@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: simplex_mod.ggsk
-// Generated 2020-07-09T12:56:24
+// Generated 2020-07-09T15:48:54
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -26058,7 +26058,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 				((player.getVariableValue('vis_video_popup_vimeo') == true)) || 
 				((player.getVariableValue('vis_video_popup_youtube') == true)) || 
 				((player.getVariableValue('vis_website') == true)) || 
-				((player.getVariableValue('filter_hotels') == false))
+				((player.getVariableValue('filter_hotels') == false)) && 
+				((me.ggUserdata.tags.indexOf("Mapping") != -1))
 			)
 			{
 				newLogicStateVisible = 0;
@@ -26654,7 +26655,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 				((player.getVariableValue('vis_video_popup_vimeo') == true)) || 
 				((player.getVariableValue('vis_video_popup_youtube') == true)) || 
 				((player.getVariableValue('vis_website') == true)) || 
-				((player.getVariableValue('filter_shopping') == false))
+				((player.getVariableValue('filter_shopping') == false)) && 
+				((me.ggUserdata.tags.indexOf("Mapping") != -1))
 			)
 			{
 				newLogicStateVisible = 0;
@@ -27329,7 +27331,8 @@ pano.setVariableValue("random_ad", randomNumber+1)
 				((player.getVariableValue('vis_video_popup_vimeo') == true)) || 
 				((player.getVariableValue('vis_video_popup_youtube') == true)) || 
 				((player.getVariableValue('vis_website') == true)) || 
-				((player.getVariableValue('filter_attractions') == false))
+				((player.getVariableValue('filter_attractions') == false)) && 
+				((me.ggUserdata.tags.indexOf("Mapping") != -1))
 			)
 			{
 				newLogicStateVisible = 0;
