@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.0/17841
 // Filename: simplex_mod.ggsk
-// Generated 2020-07-14T21:03:12
+// Generated 2020-07-14T21:06:02
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -5296,7 +5296,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_50.ggUpdatePosition();}
-		el.ggText=basePath + "banners/bottom_banner_5.gif";
+		el.ggText=basePath + "assets/banners/bottom_banner_5.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -5395,7 +5395,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_40.ggUpdatePosition();}
-		el.ggText=basePath + "banners/bottom_banner_4.gif";
+		el.ggText=basePath + "assets/banners/bottom_banner_4.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -5494,7 +5494,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_30.ggUpdatePosition();}
-		el.ggText=basePath + "banners/bottom_banner_3.gif";
+		el.ggText=basePath + "assets/banners/bottom_banner_3.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -5593,7 +5593,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_21.ggUpdatePosition();}
-		el.ggText=basePath + "banners/bottom_banner_2.gif";
+		el.ggText=basePath + "assets/banners/bottom_banner_2.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -5692,7 +5692,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_10.ggUpdatePosition();}
-		el.ggText=basePath + "banners/bottom_banner_1.gif";
+		el.ggText=basePath + "assets/banners/bottom_banner_1.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -6877,7 +6877,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_5.ggUpdatePosition();}
-		el.ggText=basePath + "banners/side_banner_5.gif";
+		el.ggText=basePath + "assets/banners/side_banner_5.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -6974,7 +6974,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_4.ggUpdatePosition();}
-		el.ggText=basePath + "banners/side_banner_4.gif";
+		el.ggText=basePath + "assets/banners/side_banner_4.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -7071,7 +7071,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_3.ggUpdatePosition();}
-		el.ggText=basePath + "banners/side_banner_3.gif";
+		el.ggText=basePath + "assets/banners/side_banner_3.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -7168,7 +7168,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_20.ggUpdatePosition();}
-		el.ggText=basePath + "banners/side_banner_2.gif";
+		el.ggText=basePath + "assets/banners/side_banner_2.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -7265,7 +7265,7 @@ function pano2vrSkin(player,base) {
 		els.className='ggskin ggskin_external';
 		els.setAttribute('style','position: absolute;-webkit-user-drag:none;pointer-events:none;;');
 		els.onload=function() {me._external_1.ggUpdatePosition();}
-		el.ggText=basePath + "banners/side_banner_1.gif";
+		el.ggText=basePath + "assets/banners/side_banner_1.gif";
 		els.setAttribute('src', el.ggText);
 		els['ondragstart']=function() { return false; };
 		player.checkLoaded.push(els);
@@ -31717,7 +31717,7 @@ pano.setVariableValue("random_ad", randomNumber+1)
 	me.addSkin();
 	var style = document.createElement('style');
 	style.type = 'text/css';
-	style.appendChild(document.createTextNode('.ggskin { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;} .ggskin a {text-decoration: none; } .ggskin a:hover { color: #a8c543; text-decoration: underline; } @font-face { font-family: Gillsans-Light; src: url(fonts/GillSans-Light.woff); } @font-face { font-family: Gillsans-SemiBold; src: url(fonts/GillSans-SemiBold.woff); } .info_body{ font-family : Gillsans-Light; } .info_body a { color: inherit; text-decoration: none; } .info_body a:hover { color: #a8c543; text-decoration: underline; } .info_title{ font-family : Gillsans-SemiBold; text-decoration: none; } .info_title a { color: inherit; text-decoration: none; } .info_title a:hover { color: #a8c543; text-decoration: underline; }'));
+	style.appendChild(document.createTextNode('.ggskin { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;} .ggskin a {text-decoration: none; } .ggskin a:hover { color: #a8c543; text-decoration: underline; } @font-face { font-family: Gillsans-Light; src: url(assets/fonts/GillSans-Light.woff); } @font-face { font-family: Gillsans-SemiBold; src: url(assets/fonts/GillSans-SemiBold.woff); } .info_body{ font-family : Gillsans-Light; } .info_body a { color: inherit; text-decoration: none; } .info_body a:hover { color: #a8c543; text-decoration: underline; } .info_title{ font-family : Gillsans-SemiBold; text-decoration: none; } .info_title a { color: inherit; text-decoration: none; } .info_title a:hover { color: #a8c543; text-decoration: underline; }'));
 	document.head.appendChild(style);
 	me._screentint.logicBlock_alpha();
 	me._thumbnail_menu.logicBlock_visible();
